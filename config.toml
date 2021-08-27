@@ -1,0 +1,38 @@
+baseURL = "http://nutch.apache.org/"
+languageCode = "en-us"
+theme = "SimpleIntro"
+#title = "Apache Nutch"
+publishDir = "public"
+
+[params]
+    mainbg = "./img/IMG_0295.png"
+    name = "Apache Nutch"
+    mainTitle = "Apache Nutch"
+    mainText = "Highly extensible, highly scalable, production-ready Web crawler"
+
+[menus]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "#about"
+    [[menu.main]]
+        identifier = "community"
+        name = "Community"
+    [[menu.main]]
+        identifier = "reporting"
+        name = "Board Reporting"
+        parent = "community"
+        url = "https://whimsy.apache.org/board/minutes/Nutch.html"
+        weight = 1
+    [[menu.main]]
+        identifier = "development"
+        name = "Development"
+        url = "#development"
+    [[menu.main]]
+        identifier = "documentation"
+        name = "Documentation"
+        url = "#documentation"
+    [[menu.main]]
+        identifier = "downloads"
+        name = "Downloads"
+        url = "/downloads"
