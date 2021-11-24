@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentations on Apache Nutch™</title>
+    <link>/documentation/</link>
+    <description>Recent content in Documentations on Apache Nutch™</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/documentation/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/about/</guid>
+      <description>See What is Apache Nutch?</description>
+    </item>
+    
+    <item>
+      <title>FAQs</title>
+      <link>/documentation/faqs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/faqs/</guid>
+      <description>See read and learn from our FAQ&#39;s</description>
+    </item>
+    
+    <item>
+      <title>Javadoc</title>
+      <link>/documentation/javadoc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/javadoc/</guid>
+      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.
+Nutch 2.X is a different code base and uses different data structures. For more information on the 2.X branch, we urge users to consult the Nutch 2 wiki documentation. Note that Nutch 2.X has been retired in October 2019 and Nutch 2.4 is the last release of the Nutch 2.x line.
+Nightly (Development) Javadoc 1.X SNAPSHOT
+Nightly (Development) Nutch Configuration Properties Nutch 1.</description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>/documentation/tutorials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/tutorials/</guid>
+      <description>See the Nutch tutorials</description>
+    </item>
+    
+    <item>
+      <title>Wiki Site</title>
+      <link>/documentation/wiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/documentation/wiki/</guid>
+      <description>See our confluence wiki instance</description>
+    </item>
+    
+  </channel>
+</rss>
