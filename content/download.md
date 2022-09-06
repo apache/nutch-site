@@ -9,8 +9,10 @@ bref = ""
 
 # Download
 Apache Nutch 1.18 (src-tar, src-zip, bin-tar and bin-zip) and 2.4 (src-tar and src-zip only) can be downloaded from the table below. See
+
 * [CHANGES-1.18.txt](https://apache.org/dist/nutch/1.18/CHANGES.txt) (released 2021-01-14), and
 * [CHANGES-2.4.txt](https://apache.org/dist/nutch/2.4/CHANGES.txt) (released 2019-10-11)
+
 for more information on the list of updates in these releases.
 
 All Apache Nutch distributions is distributed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html).
@@ -35,7 +37,7 @@ It is essential that you verify the integrity of the downloaded files using the 
 ## PGP Signature
 The PGP signatures can be verified using `PGP` First download the [KEYS](https://www.apache.org/dist/nutch/KEYS) as well as the `asc` signature file for the relevant distribution. Make sure you get these files from the [main distribution directory](https://www.apache.org/dist/nutch/), rather than from a mirror. Then verify the signatures using
 
-```bash
+```
 $ gpg --import KEYS
 $ gpg --verify apache-nutch-X.Y.Z-src.tar.gz.asc apache-nutch-X.Y.Z-src.tar.gz
 ```
@@ -45,13 +47,13 @@ The files in Apache Nutch 1.18 releases are signed by Lewis John McGibbney (lewi
 
 ## SHA Signature
 Additionally, you can verify the SHA signature on the files. A Unix program called **shasum** or **sha512sum** is included in many Unix distributions.
-```bash
+```
 $ sha512sum --check apache-nutch-X.Y.Z.sha512
 ```
 
 ## MD5 Signature
 Older releases used the MD5 signature. You may use the Unix program **md5** or **md5sum** to verify the MD5 signature:
-```bash
+```
 $ md5sum apache-nutch-X.Y.Z
 ```
 ... output should match the string in `apache-nutch-X.Y.Z.md5`.

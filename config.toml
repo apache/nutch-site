@@ -1,11 +1,15 @@
 baseURL = "/"
-author=""
+author = "Apache Nutch Project Management Committee"
 languageCode = "en-us"
 title = "Apache Nutch™"
 theme = "kube"
 themesDir = "themes"
 description = "Apache Nutch is a highly extensible, highly scalable, matured, production-ready Web crawler. Nutch enables fine grained configuration, relying on Apache Hadoop™ data structures, which are great for batch processing."
 Paginate = 4
+
+[markup.goldmark.renderer]
+unsafe = true # allow raw HTML in markdown content
+
 [Params]
   RSSLink = "/index.xml"
   author = "Apache Nutch Project Management Committee"

@@ -15,7 +15,9 @@ The Website is built using [Hugo](https://gohugo.io/) a popular open-source stat
 # Prerequisites
 * [Install Hugo](https://gohugo.io/getting-started/installing/)
 
-# Local Build and Deploy
+# Serve the Site Locally
+
+Change into the project directory and execute
 
 ```bash
 $ hugo server
@@ -45,7 +47,7 @@ Press Ctrl+C to stop
 
 # Creating new Content
 
-Check out the [Hugo documentation](https://github.com/jeblister/kube#getting-started). Any further questions should be added to `dev at nutch dot apache dot org`.
+Check out the [Kube documentation](https://github.com/jeblister/kube#getting-started). Any further questions should be added to `dev at nutch dot apache dot org`.
 
 # Contributing
 
@@ -67,6 +69,16 @@ To contribute a patch, follow these instructions (note that installing
 10. git push -u <your git username> NUTCH-xxx
 11. git pull-request
 ```
+
+# Building and Publishing the Site
+
+To deploy a static site build execute
+```
+hugo --destination static_site
+```
+
+The static site is kept in this directory in the branch `asf-site` in the folder `content/` and automatically deployed onto the public Nutch website. See the [Apache Infra project website docs](https://infra.apache.org/project-site.html) and the configuration file [.asf.yaml](./asf.yaml). The branch `asf-staging` is used for deploying the staging site https://nutch.staged.apache.org/.
+
 
 # License
 Licensed under the [Apache Licence v2](https://www.apache.org/licenses/LICENSE-2.0)
