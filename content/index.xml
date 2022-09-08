@@ -72,7 +72,8 @@ As usual in the 1.X series, release artifacts are made available as both source 
       
       <guid>/download/</guid>
       <description>Download Apache Nutch 1.18 (src-tar, src-zip, bin-tar and bin-zip) and 2.4 (src-tar and src-zip only) can be downloaded from the table below. See
- CHANGES-1.18.txt (released 2021-01-14), and CHANGES-2.4.txt (released 2019-10-11) for more information on the list of updates in these releases.  All Apache Nutch distributions is distributed under the Apache License, version 2.0.
+ CHANGES-1.18.txt (released 2021-01-14), and CHANGES-2.4.txt (released 2019-10-11)  for more information on the list of updates in these releases.
+All Apache Nutch distributions is distributed under the Apache License, version 2.0.
 The link in the Mirrors column below should display a list of available mirrors with a default selection based on your inferred location.</description>
     </item>
     
