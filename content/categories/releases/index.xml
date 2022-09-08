@@ -6,7 +6,18 @@
     <description>Recent content in releases on Apache Nutch™</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/releases/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/releases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 1.19 Release</title>
+      <link>/news/nutch-1.19-release/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/news/nutch-1.19-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.19, we advise all current users and developers of the 1.X series to upgrade to this release.
+An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.
+As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    
     <item>
       <title>Nutch 1.18 Release</title>
       <link>/news/nutch-1.18-release/</link>
