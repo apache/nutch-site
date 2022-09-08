@@ -17,22 +17,6 @@
 
 # https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features
 
-github:
-  description: "Apache Nutch Website"
-  homepage: https://nutch.apache.org/
-  labels:
-    - apache
-    - nutch
-    - hugo
-
-  enabled_merge_buttons:
-    squash: true
-    merge:  false
-    rebase: false
-
 staging:
   profile: ~
-  whoami:  asf-staging
-
-publish:
-  whoami: asf-site
+  whoami: asf-staging
