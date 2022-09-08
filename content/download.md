@@ -8,9 +8,9 @@ bref = ""
 +++
 
 # Download
-Apache Nutch 1.18 (src-tar, src-zip, bin-tar and bin-zip) and 2.4 (src-tar and src-zip only) can be downloaded from the table below. See
+Apache Nutch 1.19 (src-tar, src-zip, bin-tar and bin-zip) and 2.4 (src-tar and src-zip only) can be downloaded from the table below. See
 
-* [CHANGES-1.18.txt](https://apache.org/dist/nutch/1.18/CHANGES.txt) (released 2021-01-14), and
+* [CHANGES-1.19.txt](https://apache.org/dist/nutch/1.19/CHANGES.txt) (released 2022-08-22), and
 * [CHANGES-2.4.txt](https://apache.org/dist/nutch/2.4/CHANGES.txt) (released 2019-10-11)
 
 for more information on the list of updates in these releases.
@@ -21,14 +21,12 @@ The link in the Mirrors column below should display a list of available mirrors 
 
 | **Version**                    | **Mirrors**                                                                                                   | **Checksum**                                                                                                  | **Signature**                                                                                           |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Apache Nutch 1.18 (src.tar.gz) | [apache-nutch-1.18-src.tar.gz](https://www.apache.org/dyn/closer.lua/nutch/1.18/apache-nutch-1.18-src.tar.gz) | [apache-nutch-1.18-src.tar.gz.sha512](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-src.tar.gz.sha512) | [apache-nutch-1.18-src.tar.gz.asc](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-src.tar.gz.asc) |
-| Apache Nutch 1.18 (src.zip)    | [apache-nutch-1.18-src.zip](https://www.apache.org/dyn/closer.lua/nutch/1.18/apache-nutch-1.18-src.zip)       | [apache-nutch-1.18-src.zip.sha512](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-src.zip.sha512)       | [apache-nutch-1.18-src.zip.asc](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-src.zip.asc)       |
-| Apache Nutch 1.18 (bin.tar.gz) | [apache-nutch-1.18-bin.tar.gz](https://www.apache.org/dyn/closer.lua/nutch/1.18/apache-nutch-1.18-bin.tar.gz) | [apache-nutch-1.18-bin.tar.gz.sha512](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-bin.tar.gz.sha512) | [apache-nutch-1.18-bin.tar.gz.asc](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-bin.tar.gz.asc) |
-| Apache Nutch 1.18 (bin.zip)    | [apache-nutch-1.18-bin.zip](https://www.apache.org/dyn/closer.lua/nutch/1.18/apache-nutch-1.18-bin.zip)       | [apache-nutch-1.18-bin.zip.sha512](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-bin.zip.sha512)       | [apache-nutch-1.18-bin.zip.asc](https://apache.org/dist/nutch/1.18/apache-nutch-1.18-bin.zip.asc)       |
+| Apache Nutch 1.19 (src.tar.gz) | [apache-nutch-1.19-src.tar.gz](https://www.apache.org/dyn/closer.lua/nutch/1.19/apache-nutch-1.19-src.tar.gz) | [apache-nutch-1.19-src.tar.gz.sha512](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-src.tar.gz.sha512) | [apache-nutch-1.19-src.tar.gz.asc](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-src.tar.gz.asc) |
+| Apache Nutch 1.19 (src.zip)    | [apache-nutch-1.19-src.zip](https://www.apache.org/dyn/closer.lua/nutch/1.19/apache-nutch-1.19-src.zip)       | [apache-nutch-1.19-src.zip.sha512](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-src.zip.sha512)       | [apache-nutch-1.19-src.zip.asc](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-src.zip.asc)       |
+| Apache Nutch 1.19 (bin.tar.gz) | [apache-nutch-1.19-bin.tar.gz](https://www.apache.org/dyn/closer.lua/nutch/1.19/apache-nutch-1.19-bin.tar.gz) | [apache-nutch-1.19-bin.tar.gz.sha512](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-bin.tar.gz.sha512) | [apache-nutch-1.19-bin.tar.gz.asc](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-bin.tar.gz.asc) |
+| Apache Nutch 1.19 (bin.zip)    | [apache-nutch-1.19-bin.zip](https://www.apache.org/dyn/closer.lua/nutch/1.19/apache-nutch-1.19-bin.zip)       | [apache-nutch-1.19-bin.zip.sha512](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-bin.zip.sha512)       | [apache-nutch-1.19-bin.zip.asc](https://apache.org/dist/nutch/1.19/apache-nutch-1.19-bin.zip.asc)       |
 | Apache Nutch 2.4 (src.tar.gz)  | [apache-nutch-2.4-src.tar.gz](https://www.apache.org/dyn/closer.lua/nutch/2.4/apache-nutch-2.4-src.tar.gz)    | [apache-nutch-2.4-src.tar.gz.sha512](https://apache.org/dist/nutch/2.4/apache-nutch-2.4-src.tar.gz.sha512)    | [apache-nutch-2.4-src.tar.gz.asc](https://apache.org/dist/nutch/2.4/apache-nutch-2.4-src.tar.gz.asc)    |
 | Apache Nutch 2.4 (src.zip)     | [apache-nutch-2.4-src.zip](https://www.apache.org/dyn/closer.lua/nutch/2.4/apache-nutch-2.4-src.zip)          | [apache-nutch-2.4-src.zip.sha512](https://apache.org/dist/nutch/2.4/apache-nutch-2.4-src.zip.sha512)          | [apache-nutch-2.4-src.zip.asc](https://apache.org/dist/nutch/2.4/apache-nutch-2.4-src.zip.asc)          |
-|                                |                                                                                                               |                                                                                                               |                                                                                                         |
-|                                |                                                                                                               |                                                                                                               |                                                                                                         |
 |                                |                                                                                                               |                                                                                                               |                                                                                                         |
 
 # Verify Releases
@@ -43,7 +41,7 @@ $ gpg --verify apache-nutch-X.Y.Z-src.tar.gz.asc apache-nutch-X.Y.Z-src.tar.gz
 ```
 Make sure to change the file names to match package, version and format.
 
-The files in Apache Nutch 1.18 releases are signed by Lewis John McGibbney (lewismc) `48BAEBF6`. The files in Apache Nutch 2.4 release are signed by Sebastian Nagel (snagel) `DB0A9C6D`.
+The files in Apache Nutch 1.19 releases are signed by Sebastian Nagel (snagel) `48BAEBF6`. The files in Apache Nutch 2.4 release are signed by Sebastian Nagel (snagel) `DB0A9C6D`.
 
 ## SHA Signature
 Additionally, you can verify the SHA signature on the files. A Unix program called **shasum** or **sha512sum** is included in many Unix distributions.

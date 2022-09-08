@@ -19,10 +19,14 @@ The Nutch 1.X releases are cut from the Nutch `master` branch code base.
 
 [Nutch 1.X SNAPSHOT configuration properties](https://ci-builds.apache.org/job/Nutch/job/Nutch-trunk/javadoc/resources/nutch-default.xml)
 
-## Current Releases Javadoc</h2>
+## Current Releases Javadoc
 
-[Nutch 1.18 Javadoc](./apidocs/index.html)
+[Nutch 1.19 Javadoc](./apidocs/index.html)
 
-## Current Releases Nutch Configuration Properties</h2>
+## Current Releases Nutch Configuration Properties
 
-[Nutch 1.18 configuration properties](./apidocs/resources/nutch-default.xml)
+[Nutch 1.19 configuration properties](./apidocs/resources/nutch-default.xml)
+
+## Javadocs of Archived Releases
+
+The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the [Apache Archives](https://archive.apache.org/dist/nutch/), see also the [Apache Nutch download page](/download/).
