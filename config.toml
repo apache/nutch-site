@@ -11,6 +11,7 @@ Paginate = 4
 unsafe = true # allow raw HTML in markdown content
 
 [Params]
+  siteBaseURL = "https://nutch.apache.org"
   RSSLink = "/index.xml"
   author = "Apache Nutch Project Management Committee"
   github = "https://github.com/apache/nutch"
@@ -41,3 +42,4 @@ unsafe = true # allow raw HTML in markdown content
     name = "Apache"
     weight = -100
     url = "/apache/"
+
