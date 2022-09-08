@@ -1,5 +1,5 @@
 +++
-date = "2021-09-08"
+date = "2022-08-22"
 title = "Nutch 1.19 Release"
 tags = ["1.19","release"]
 categories = ["releases"]
