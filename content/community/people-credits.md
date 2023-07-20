@@ -169,6 +169,13 @@ bref = ""
        <td>Committer, PMC Member</td>
        <td>Microsoft</td>
       </tr>
+      <tr class="a">
+       <td>tallison</td>
+       <td><a href="https://www.linkedin.com/in/tim-allison-5a6722/">Tim Allison</a></td>
+       <td>tallison[at]apache[dot]org</td>
+       <td>Committer, PMC Member</td>
+       <td>NASA JPL</td>
+      </tr>
      </table>
     </div>
 
