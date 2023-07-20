@@ -39,7 +39,7 @@ unsafe = true # allow raw HTML in markdown content
     weight = -100
     url = "/news/"
 [[menu.main]]
-    name = "Apache"
+    name = "The Apache Software Foundation"
     weight = -100
     url = "/apache/"
 
