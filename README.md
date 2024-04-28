@@ -20,7 +20,7 @@ The Website is built using [Hugo](https://gohugo.io/) a popular open-source stat
 Change into the project directory and execute
 
 ```bash
-$ hugo server
+$ hugo server -w
 ...
 Start building sites …
 
@@ -47,28 +47,11 @@ Press Ctrl+C to stop
 
 # Creating new Content
 
-Check out the [Kube documentation](https://github.com/jeblister/kube#getting-started). Any further questions should be added to `dev at nutch dot apache dot org`.
+Check out the [Kube documentation](https://github.com/jeblister/kube#getting-started). Any further questions should be asked on the [Nutch dev@ mailing list](https://nutch.apache.org/community/mailing-lists/).
 
 # Contributing
 
-To contribute a patch, follow these instructions (note that installing
-[Hub](https://hub.github.com/) is not strictly required, but is recommended).
-
-```
-0. Download and install hub.github.com
-1. File JIRA issue for your fix at https://issues.apache.org/jira/projects/NUTCH/issues
-- you will get issue id NUTCH-xxx where xxx is the issue ID.
-2. git clone https://github.com/apache/nutch-site.git
-3. cd nutch-site
-4. git checkout -b NUTCH-xxx
-5. edit files
-6. git status (make sure it shows what files you expected to edit)
-7. git add <files>
-8. git commit -m “fix for NUTCH-xxx contributed by <your username>”
-9. git fork
-10. git push -u <your git username> NUTCH-xxx
-11. git pull-request
-```
+The [process is the same](https://github.com/apache/nutch?tab=readme-ov-file#contributing) as for the Nutch codebase.
 
 # Building and Publishing the Site
 

@@ -1,6 +1,6 @@
 +++
 description = 'Nutch is a highly extensible, highly scalable, matured, production-ready Web crawler which enables fine grained configuration and accomodates a wide variety of data acquisition tasks.'
-descriptionHtml = '<b>Nutch</b> is a highly extensible, highly scalable, matured, production-ready <a href="https://en.wikipedia.org/wiki/Web_crawler">Web crawler</a> which enables fine grained configuration and accomodates a wide variety of data acquisition tasks.'
+descriptionHtml = '<b>Nutch</b> is a highly extensible, highly scalable, matured, production-ready <a href="https://en.wikipedia.org/wiki/Web_crawler" target="_blank">Web crawler</a> which enables fine grained configuration and accomodates a wide variety of data acquisition tasks.'
 title = "Apache Nutch™"
 +++
 
@@ -22,7 +22,7 @@ title = "Apache Nutch™"
         <img alt="Typography" height="48" src="/img/plug.svg" width="48">
       </figure>
       <h3>Pluggable</h3>
-      <p>Out of the box Nutch offer powerful plugins i.e., parsing with <a href="https://tika.apache.org" target="_blank" rel="noopener noreferrer">Apache Tika™</a>, indexing with <a href="https://solr.apache.org" target="_blank" rel="noopener noreferrer">Apache Solr™</a>, <a href="https://www.elastic.co/elastic-stack/" target="_blank" rel="noopener noreferrer">Elasticsearch</a> and more!</p>
+      <p>Out of the box Nutch offer powerful plugins i.e., parsing with <a href="https://tika.apache.org" target="_blank" rel="noopener noreferrer">Apache Tika™</a>, indexing with <a href="https://solr.apache.org" target="_blank" rel="noopener noreferrer">Apache Solr™</a>, <a href="https://www.elastic.co/elasticsearch" target="_blank" rel="noopener noreferrer">Elasticsearch</a> and more!</p>
     </div>
     <div class="col col-4 item">
       <figure>

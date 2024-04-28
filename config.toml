@@ -10,13 +10,14 @@ Paginate = 4
 [markup.goldmark.renderer]
 unsafe = true # allow raw HTML in markdown content
 
-[Params]
+[params]
   siteBaseURL = "https://nutch.apache.org"
   RSSLink = "/index.xml"
   author = "Apache Nutch Project Management Committee"
   github = "https://github.com/apache/nutch"
   twitter = "@ApacheNutch"
   email = "dev@nutch.apache.org"
+  nutchVersion = "1.20"
 
 [[menu.main]]
     name = "Community"
@@ -42,4 +43,3 @@ unsafe = true # allow raw HTML in markdown content
     name = "The Apache Software Foundation"
     weight = -100
     url = "/apache/"
-
