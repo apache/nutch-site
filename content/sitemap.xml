@@ -4,6 +4,10 @@
   <url/>
   
     <url>
+      <loc>https://nutch.apache.org/news/nutch-1.20-release/</loc>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    </url>
+    <url>
       <loc>https://nutch.apache.org/news/nutch-1.19-release/</loc>
       <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     </url>
@@ -23,6 +27,9 @@
     </url>
     <url>
       <loc>https://nutch.apache.org/community/board-reporting/</loc>
+    </url>
+    <url>
+      <loc>https://nutch.apache.org/development/ci/</loc>
     </url>
     <url>
       <loc>https://nutch.apache.org/community/contributing/</loc>
@@ -46,9 +53,6 @@
       <loc>https://nutch.apache.org/community/merchandise/</loc>
     </url>
     <url>
-      <loc>https://nutch.apache.org/development/nightly-builds/</loc>
-    </url>
-    <url>
       <loc>https://nutch.apache.org/community/people-credits/</loc>
     </url>
     <url>
@@ -64,31 +68,35 @@
       <loc>https://nutch.apache.org/documentation/wiki/</loc>
     </url>
     <url>
-      <loc>https://nutch.apache.org/tags/1.19/</loc>
-      <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+      <loc>https://nutch.apache.org/tags/1.20/</loc>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     </url>
     <url>
       <loc>https://nutch.apache.org/</loc>
-      <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     </url>
     <url>
       <loc>https://nutch.apache.org/categories/</loc>
-      <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     </url>
     <url>
       <loc>https://nutch.apache.org/news/</loc>
-      <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     </url>
     <url>
       <loc>https://nutch.apache.org/tags/release/</loc>
-      <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     </url>
     <url>
       <loc>https://nutch.apache.org/categories/releases/</loc>
-      <lastmod>2022-08-22T00:00:00+00:00</lastmod>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
     </url>
     <url>
       <loc>https://nutch.apache.org/tags/</loc>
+      <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+    </url>
+    <url>
+      <loc>https://nutch.apache.org/tags/1.19/</loc>
       <lastmod>2022-08-22T00:00:00+00:00</lastmod>
     </url>
     <url>

@@ -4,70 +4,50 @@
     <title>Community on Apache Nutch™</title>
     <link>/community/</link>
     <description>Recent content in Community on Apache Nutch™</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/community/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <atom:link href="/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Board Reporting</title>
       <link>/community/board-reporting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/community/board-reporting/</guid>
       <description>See https://whimsy.apache.org/board/minutes/Nutch.html</description>
     </item>
-    
     <item>
       <title>Contributing</title>
       <link>/community/contributing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/community/contributing/</guid>
       <description>See Becoming a Nutch Developer</description>
     </item>
-    
     <item>
       <title>Mailing Lists</title>
       <link>/community/mailing-lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/community/mailing-lists/</guid>
-      <description>Ask questions, post your requests, hang out with project committers, or sit back enjoy and watch an extremely vibrantcommunity at work.
-Users ListIf you use Nutch, please subscribe to the Nutch user mailing list.
-The Nutch user mailing list is : user@nutch.apache.org.Subscribe to ListUnsubscribe from ListSearch List ArchiveSearch Old List Archive (nutch@lucene.apache.org)View List ArchiveNoteIn order to post to the list, it is necessary to first subscribe to it.</description>
+      <description>Ask questions, post your requests, hang out with project committers, or lurk and watch the community at work. You need to subscribe before you can post!&#xA;Name Description Functions user@ If you use Nutch, please subscribe to the Nutch user mailing list. subscribe unsubscribe search list search old list archive dev@ If you&amp;rsquo;d like to contribute to Nutch, please subscribe to the Nutch developer mailing list. subscribe unsubscribe search list search old list archive commits@ If you&amp;rsquo;d like to see changes made in the version control system then subscribe to the Nutch commit mailing list.</description>
     </item>
-    
     <item>
       <title>Merchandise</title>
       <link>/community/merchandise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/community/merchandise/</guid>
-      <description>See https://www.cafepress.com/nutch for some cool nutch merch!
-All profits from sales of these products are donated to The Apache Software Foundation.
-The Apache Nutch logo and mascot were designed and donated to Apache by Thomas Deichsel of Media Style GmbH.
-The name &amp;ldquo;Apache Nutch&amp;rdquo; and depictions of the Apache Nutch logo and mascot are reserved for use by The Apache Software Foundation.</description>
+      <description>See https://www.cafepress.com/nutch for some cool nutch merch!&#xA;All profits from sales of these products are donated to The Apache Software Foundation.&#xA;The Apache Nutch logo and mascot were designed and donated to Apache by Thomas Deichsel of Media Style GmbH.&#xA;The name &amp;ldquo;Apache Nutch&amp;rdquo; and depictions of the Apache Nutch logo and mascot are reserved for use by The Apache Software Foundation.</description>
     </item>
-    
     <item>
       <title>People &amp; Credits</title>
       <link>/community/people-credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/community/people-credits/</guid>
-      <description>The TeamA successful project requires many people to play many roles.
-Put simply... this page is dedicated to those who have helpedNutch along the way.
-MembersThe following is a list of project committers who alsocurrently sit on the Nutch Project Management Committee
-IdNameEmailRolesCompanymattmannChris A.Mattmannmattmann[at]apache[dot]orgCommitter, PMC MemberNASA JPLmarkusMarkus Jelsmamarkus[at]apache[dot]orgCommitter, PMC MemberOpen IndexlewismcLewisJohn McGibbneylewismc[at]apache[dot]orgCommitter, PMC MemberNASA JPLsnagelSebastianNagelsnagel[at]apache[dot]orgCommitter, PMC Member, Project ChairCommon CrawltejaspTejasPatiltejasp[at]apache[dot]orgCommitter, PMC MemberFacebookkiranKiranChitturikiranchitturi[at]apache[dot]orgCommitter, PMC MemberLucidWorksfengfenglufeng[at]apache[dot]orgCommitter, PMC MemberPatsnaptalatTalatUyarertalat[at]apache[dot]orgCommitter, PMC MemberAGMLABjorgelbgJorge LuisBetancourtjorgelbg[at]apache[dot]orgCommitter, PMC MembertrivagomomerMo Omermomer[at]apache[dot]orgCommitter, PMC MemberMithuntotaroGiuseppe Totarototaro[at]apache[dot]orgCommitter, PMC MemberNASA JPLasitangAsitang Mishraasitang[at]apache[dot]orgCommitter, PMC MemberNASA JPLsujenSujen Shahsujen[at]apache[dot]orgCommitter, PMC MemberNASA JPLjoyceMichael Joycejoyce[at]apache[dot]orgCommitter, PMC MemberNASA JPLkamaciFurkan KAMACIkamaci[at]apache[dot]orgCommitter, PMC MemberLAGOMomkarrOmkar Reddyomkarr[at]apache[dot]orgCommitter, PMC MemberJuniper Networksr0ann3lRoannel Fernandezr0ann3l[at]apache[dot]orgCommitter, PMC MemberUniversity of Informatics SciencesbalakuntalaShashanka Balakuntala Srinivasabalakuntala[at]apache[dot]orgCommitter, PMC MemberMicrosofttallisonTim Allisontallison[at]apache[dot]orgCommitter, PMC MemberNASA JPLEmeritus CommittersDoug CuttingJ&amp;eacute;r&amp;ocirc;me CharronJohn XingMike CafarellaPiotr KosiorowskiOtis GospodnetićAndrzej BialeckiSami SirenDennis KubesDogacan G&amp;uuml;neyAlexis de Tr&amp;eacute;glod&amp;eacute;Ferdy GalemaJulien NiocheFriendsDan Fain (Yahoo!</description>
+      <description>The Team&#xD;A successful project requires many people to play many roles.&#xA;Put simply... this page is dedicated to those who have helped&#xD;Nutch along the way.&#xA;Members&#xD;The following is a list of project committers who also&#xD;currently sit on the Nutch Project Management Committee&#xA;Id&#xD;Name&#xD;Email&#xD;Roles&#xD;Company&#xD;mattmann&#xD;Chris A.&#xD;Mattmann&#xD;mattmann[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;markus&#xD;Markus Jelsma&#xD;markus[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Open Index&#xD;lewismc&#xD;Lewis&#xD;John McGibbney&#xD;lewismc[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;snagel&#xD;Sebastian&#xD;Nagel&#xD;snagel[at]apache[dot]org&#xD;Committer, PMC Member, Project Chair&#xD;Common Crawl&#xD;tejasp&#xD;Tejas&#xD;Patil&#xD;tejasp[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Facebook&#xD;kiran&#xD;Kiran&#xD;Chitturi&#xD;kiranchitturi[at]apache[dot]org&#xD;Committer, PMC Member&#xD;LucidWorks&#xD;feng&#xD;feng&#xD;lu&#xD;feng[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Patsnap&#xD;talat&#xD;Talat&#xD;Uyarer&#xD;talat[at]apache[dot]org&#xD;Committer, PMC Member&#xD;AGMLAB&#xD;jorgelbg&#xD;Jorge Luis&#xD;Betancourt&#xD;jorgelbg[at]apache[dot]org&#xD;Committer, PMC Member&#xD;trivago&#xD;momer&#xD;Mo Omer&#xD;momer[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Mithun&#xD;totaro&#xD;Giuseppe Totaro&#xD;totaro[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;asitang&#xD;Asitang Mishra&#xD;asitang[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;sujen&#xD;Sujen Shah&#xD;sujen[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;joyce&#xD;Michael Joyce&#xD;joyce[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;kamaci&#xD;Furkan KAMACI&#xD;kamaci[at]apache[dot]org&#xD;Committer, PMC Member&#xD;LAGOM&#xD;omkarr&#xD;Omkar Reddy&#xD;omkarr[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Juniper Networks&#xD;r0ann3l&#xD;Roannel Fernandez&#xD;r0ann3l[at]apache[dot]org&#xD;Committer, PMC Member&#xD;University of Informatics Sciences&#xD;balakuntala&#xD;Shashanka Balakuntala Srinivasa&#xD;balakuntala[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Microsoft&#xD;tallison&#xD;Tim Allison&#xD;tallison[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;Emeritus Committers&#xD;Doug Cutting&#xD;J&amp;eacute;r&amp;ocirc;me Charron&#xD;John Xing&#xD;Mike Cafarella&#xD;Piotr Kosiorowski&#xD;Otis Gospodnetić&#xD;Andrzej Bialecki&#xD;Sami Siren&#xD;Dennis Kubes&#xD;Dogacan G&amp;uuml;ney&#xD;Alexis de Tr&amp;eacute;glod&amp;eacute;&#xD;Ferdy Galema&#xD;Julien Nioche&#xD;Friends&#xD;Dan Fain (Yahoo!</description>
     </item>
-    
     <item>
       <title>SysAdmins/WebMasters</title>
       <link>/community/bot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/community/bot/</guid>
-      <description>Introduction If you&amp;rsquo;re reading this, chances are you&amp;rsquo;ve seen a Nutch-based robot visiting your site while looking through your server logs. Our software obeys robots.txt files and robot META tags in HTML. These are the standard mechanisms for webmasters to tell web robots which portions of a site a robot is welcome to access.
-Sysadmins/robots.txt We&amp;rsquo;re a software project, not a service, so please understand that a misbehaving crawler appearing with our Agent string is not run by us.</description>
+      <description>Introduction If you&amp;rsquo;re reading this, chances are you&amp;rsquo;ve seen a Nutch-based robot visiting your site while looking through your server logs. Our software obeys robots.txt files and robot META tags in HTML. These are the standard mechanisms for webmasters to tell web robots which portions of a site a robot is welcome to access.&#xA;Sysadmins/robots.txt We&amp;rsquo;re a software project, not a service, so please understand that a misbehaving crawler appearing with our Agent string is not run by us.</description>
     </item>
-    
   </channel>
 </rss>
