@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.20 on Apache Nutch™</title>
+    <link>/tags/1.20/</link>
+    <description>Recent content in 1.20 on Apache Nutch™</description>
+    <generator>Hugo 0.125.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/1.20/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 1.20 Release</title>
+      <link>/news/nutch-1.20-release/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.20-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.20, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;Download Nutch 1.20 You may also be interested in the 1.20 release report.&#xA;In the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central.</description>
+    </item>
+  </channel>
+</rss>
