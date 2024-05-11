@@ -33,7 +33,7 @@
     <mailing-list rdf:resource="https://nutch.apache.org/community/mailing-lists/" />
     <download-page rdf:resource="https://www.apache.org/dyn/closer.cgi/nutch/" />
     <programming-language>Java</programming-language>
-    <category rdf:resource="https://projects.apache.org/projects.html?category#web-framework" />
+    <category rdf:resource="http://projects.apache.org/category/web-framework" />
     <release>
       <Version>
         <name>Apache Nutch 1.20</name>
