@@ -4,7 +4,7 @@ title = "Nutch 1.20 Release"
 tags = ["1.20","release"]
 categories = ["releases"]
 draft = false
-description = "This news announces the Apache Nutch 1.20 release."
+description = "25 April 2024 – we are pleased to announce the release of Apache Nutch 1.20"
 weight = 10
 +++
 
