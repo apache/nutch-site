@@ -4,7 +4,7 @@
     <title>Documentation on Apache Nutch™</title>
     <link>/documentation/</link>
     <description>Recent content in Documentation on Apache Nutch™</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -26,7 +26,7 @@
       <link>/documentation/javadoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/documentation/javadoc/</guid>
-      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.20 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.20 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
+      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.21 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.21 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
     </item>
     <item>
       <title>Tutorials</title>
