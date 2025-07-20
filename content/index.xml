@@ -4,10 +4,17 @@
     <title>Apache Nutch™</title>
     <link>/</link>
     <description>Recent content on Apache Nutch™</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 1.21 Release</title>
+      <link>/news/nutch-1.21-release/</link>
+      <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.21-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.21, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;Download Nutch 1.21 You may also be interested in the 1.21 release report.&#xA;In the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central.</description>
+    </item>
     <item>
       <title>Nutch 1.20 Release</title>
       <link>/news/nutch-1.20-release/</link>
@@ -76,7 +83,7 @@
       <link>/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/download/</guid>
-      <description>Download Apache Nutch 1.20 (src-tar, src-zip, bin-tar and bin-zip) artifacts can be downloaded from the table below. See CHANGES.md for the comprehensive change log for Nutch 1.20 released on 2024-04-24 (YYYY-MM-DD).&#xA;All Apache Nutch distributions is distributed under the Apache License, version 2.0. See the NOTICE.txt file contained in each Nutch release artifact for applicable copyright attribution notices.&#xA;The link in the Mirrors column below should display a list of available mirrors with a default selection based on your inferred location.</description>
+      <description>Download Apache Nutch 1.21 (src-tar, src-zip, bin-tar and bin-zip) artifacts can be downloaded from the table below. See CHANGES.md for the comprehensive change log for Nutch 1.21 released on 2024-04-24 (YYYY-MM-DD).&#xA;All Apache Nutch distributions is distributed under the Apache License, version 2.0. See the NOTICE.txt file contained in each Nutch release artifact for applicable copyright attribution notices.&#xA;The link in the Mirrors column below should display a list of available mirrors with a default selection based on your inferred location.</description>
     </item>
     <item>
       <title>FAQs</title>
@@ -97,7 +104,7 @@
       <link>/documentation/javadoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/documentation/javadoc/</guid>
-      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.20 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.20 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
+      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.21 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.21 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
     </item>
     <item>
       <title>Mailing Lists</title>

@@ -203,7 +203,7 @@
 
 <property>
   <name>http.agent.version</name>
-  <value>Nutch-1.20</value>
+  <value>Nutch-1.21</value>
   <description>A version string to advertise in the User-Agent
    header.</description>
 </property>
@@ -1150,12 +1150,20 @@
 
 <property>
   <name>fetcher.max.exceptions.per.queue</name>
-  <value>-1</value>
+  <value>5</value>
   <description>The maximum number of protocol-level exceptions
   (e.g. timeouts) or HTTP status codes mapped to ProtocolStatus.EXCEPTION
   per host (or IP) queue. Once this value is reached, any remaining entries
   from this queue are purged, effectively stopping the fetching from this
-  host/IP. The default value of -1 deactivates this limit.
+  host/IP. A value of -1 deactivates this limit.
+
+  Note that the exponential backoff mechanism (see the property
+  fetcher.exceptions.per.queue.delay) causes increasing wait times
+  after each exception in a queue. If there is no time limit
+  (fetcher.timelimit.mins) or minimum throughput
+  (fetcher.throughput.threshold.pages) configured, it is recommended
+  to set this property to a considerably low value. This avoids the
+  fetch process from hanging when only URLs in blocked queues remain.
   </description>
 </property>
 
@@ -1174,6 +1182,17 @@
 </property>
 
 <property>
+  <name>fetcher.exceptions.per.queue.clear.after</name>
+  <value>1800</value>
+  <description>Time in seconds after which exception counters in
+  queues can be cleared. This happens only if no items are queued in
+  this queue and the configured time span has elapsed in addition to
+  the crawl delay including the exponential backoff time, see
+  fetcher.exceptions.per.queue.delay.
+  </description>
+</property>
+
+<property>
   <name>fetcher.throughput.threshold.pages</name>
   <value>-1</value>
   <description>The threshold of minimum pages per second. If the fetcher downloads less
@@ -1187,7 +1206,11 @@
   <name>fetcher.throughput.threshold.retries</name>
   <value>5</value>
   <description>The number of times the fetcher.throughput.threshold.pages is allowed to be exceeded.
-  This settings prevents accidental slow downs from immediately killing the fetcher thread.
+  This settings prevents accidental slow downs from immediately shutting down the fetcher threads.
+  The throughput is checked approx. every second. Note: the number of retries should be lower
+  than the timeout defined by mapreduce.task.timeout and fetcher.threads.timeout.divisor (see there).
+  For the default values, the timeout is 300 seconds. Consequently, the number of retries should be
+  significantly lower.
   </description>
 </property>
 
@@ -1200,10 +1223,11 @@
 <property>
   <name>fetcher.threads.timeout.divisor</name>
   <value>2</value>
-  <description>(EXPERT)The thread time-out divisor to use. By default threads have a time-out
+  <description>(EXPERT) The thread time-out divisor to use. By default threads have a time-out
   value of mapreduce.task.timeout / 2. Increase this setting if the fetcher waits too
-  long before killing hanged threads. Be careful, a too high setting (+8) will most likely kill the
-  fetcher threads prematurely.
+  long before killing hung threads. Be careful, a too high setting (+8) will most likely kill the
+  fetcher threads prematurely. The fetcher thread time-out avoids that the task timeout (defined by
+  the Hadoop configuration property mapreduce.task.timeout) is reached and the fetcher job is failed.
   </description>
 </property>
 
@@ -2313,9 +2337,19 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
 
 <property>
   <name>index.arbitrary.overwrite.0</name>
+  <value></value>
   <description>Whether to overwrite any existing value in the doc for
     for fieldName. Default is false if not specified in config</description>
+</property>
+
+<property>
+  <name>index.arbitrary.all.fields.access.0</name>
   <value></value>
+  <description>Whether to pass all indexing filter fields to constructor
+  for the user POJO. These are the NutchDocument doc, Parse parse,
+  url (as org.apache.hadoop.io.Text), CrawlDatum datum, and
+  Inlinks inlinks objects. Default value is false to preserve
+  compatibility with previous index-arbitrary behavior.</description>
 </property>
 
 <!-- parse-metatags plugin properties -->
@@ -2678,6 +2712,16 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
   <description>
     Store the HTTP response headers received by Nutch from the
     server. Useful for debugging and required when writing WARC files.
+  </description>
+</property>
+
+<property>
+  <name>store.protocol.versions</name>
+  <value>false</value>
+  <description>
+    Store protocol versions in response metadata: HTTP and SSL/TLS
+    versions, SSL/TTL cipher suites and related information depending
+    on the protocol implementation. Supported by: protocol-okhttp.
   </description>
 </property>
 
