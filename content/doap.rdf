@@ -36,6 +36,13 @@
     <category rdf:resource="http://projects.apache.org/category/web-framework" />
     <release>
       <Version>
+        <name>Apache Nutch 1.21</name>
+        <created>2025-07-20</created>
+        <revision>1.21</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
         <name>Apache Nutch 1.20</name>
         <created>2024-04-24</created>
         <revision>1.20</revision>

@@ -77,7 +77,6 @@ org.apache.nutch.scoring.orphan
 org.apache.nutch.scoring.similarity
 org.apache.nutch.scoring.similarity.cosine
 org.apache.nutch.scoring.similarity.util
-org.apache.nutch.scoring.tld
 org.apache.nutch.scoring.urlmeta
 org.apache.nutch.scoring.webgraph
 org.apache.nutch.segment
@@ -100,5 +99,4 @@ org.apache.nutch.urlfilter.regex
 org.apache.nutch.urlfilter.suffix
 org.apache.nutch.urlfilter.validator
 org.apache.nutch.util
-org.apache.nutch.util.domain
 org.creativecommons.nutch
