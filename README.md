@@ -61,7 +61,7 @@ To deploy a static site build execute
 hugo --destination static_site
 ```
 
-The static site is kept in this directory in the branch `asf-site` in the folder `content/` and automatically deployed onto the public Nutch website. See the [Apache Infra project website docs](https://infra.apache.org/project-site.html) and the configuration file [.asf.yaml](./asf.yaml). The branch `asf-staging` is used for deploying the staging site https://nutch.staged.apache.org/.
+The static site is kept in this directory in the branch `asf-site` in the folder `content/` and automatically deployed onto the public Nutch website. See the [Apache Infra project website docs](https://infra.apache.org/project-site.html) and the configuration file [.asf.yaml](./asf.yaml). The branch `asf-staging` is used for deploying the staging site <https://nutch.staged.apache.org/>.
 
 
 # License

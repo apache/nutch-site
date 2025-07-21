@@ -8,7 +8,7 @@ bref = ""
 +++
 
 # Download
-Apache Nutch {{< param nutchVersion >}} (src-tar, src-zip, bin-tar and bin-zip) artifacts can be downloaded from the table below. See [CHANGES.md](https://apache.org/dist/nutch/{{< param nutchVersion >}}/CHANGES.md) for the comprehensive change log for Nutch {{< param nutchVersion >}} released on 2024-04-24 (YYYY-MM-DD).
+Apache Nutch {{< param nutchVersion >}} (src-tar, src-zip, bin-tar and bin-zip) artifacts can be downloaded from the table below. See [CHANGES.md](https://apache.org/dist/nutch/{{< param nutchVersion >}}/CHANGES.md) for the comprehensive change log for Nutch {{< param nutchVersion >}} released on 2025-07-20 (YYYY-MM-DD).
 
 All Apache Nutch distributions is distributed under the [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html). See the NOTICE.txt file contained in each Nutch release artifact for applicable copyright attribution notices.
 
