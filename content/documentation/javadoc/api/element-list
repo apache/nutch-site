@@ -30,6 +30,7 @@ org.apache.nutch.indexwriter.opensearch1x
 org.apache.nutch.indexwriter.rabbit
 org.apache.nutch.indexwriter.solr
 org.apache.nutch.metadata
+org.apache.nutch.metrics
 org.apache.nutch.microformats.reltag
 org.apache.nutch.net
 org.apache.nutch.net.protocols
