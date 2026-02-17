@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.6 on Apache Nutch™</title>
+    <link>/tags/1.6/</link>
+    <description>Recent content in 1.6 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/1.6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch v1.6 Released</title>
+      <link>/news/nutch-1.6-release/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.6-release/</guid>
+      <description>The Apache Nutch PMC are extremely pleased to announce the release of Apache Nutch v1.6. This release includes over 20 bug fixes, the same in improvements, as well as new functionalities including a new HostNormalizer, the ability to dynamically set fetchInterval by MIME-type and functional enhancements to the Indexer API inluding the normalization of URL&amp;rsquo;s and the deletion of robots noIndex documents. Other notable improvements include the upgrade of key dependencies to Tika 1.</description>
+    </item>
+  </channel>
+</rss>

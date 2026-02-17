@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Creative Commons on Apache Nutch™</title>
+    <link>/tags/creative-commons/</link>
+    <description>Recent content in Creative Commons on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Sep 2004 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/creative-commons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creative Commons launches Nutch-based Search</title>
+      <link>/news/nutch-search-creative-commons/</link>
+      <pubDate>Wed, 15 Sep 2004 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-search-creative-commons/</guid>
+      <description>Creative Commons unveiled a beta version of its search engine, which scours the web for text, images, audio, and video free to re-use on certain terms a search refinement offered by no other company or organization.&#xA;See the Creative Commons Press Release for more details.</description>
+    </item>
+  </channel>
+</rss>

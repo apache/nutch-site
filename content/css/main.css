@@ -760,6 +760,7 @@ body.page-account #hero {
 
 #posts {
   list-style: none;
+  list-style-position: inside;
   margin: auto;
   margin-top: 48px;
   margin-bottom: 128px;

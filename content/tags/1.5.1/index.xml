@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.5.1 on Apache Nutch™</title>
+    <link>/tags/1.5.1/</link>
+    <description>Recent content in 1.5.1 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jul 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/1.5.1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch v1.5.1 Released</title>
+      <link>/news/nutch-1.5.1-release/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.5.1-release/</guid>
+      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v1.5.1. This release is a maintainence release of the popular 1.5.X mainstream version of Nutch which has been widely adopted within the community. Please see the list of changes made in this version for a full breakdown. The release is available here.</description>
+    </item>
+  </channel>
+</rss>

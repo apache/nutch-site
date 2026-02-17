@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0.9 on Apache Nutch™</title>
+    <link>/tags/0.9/</link>
+    <description>Recent content in 0.9 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Apr 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/0.9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 0.9 Released</title>
+      <link>/news/nutch-0.9-release/</link>
+      <pubDate>Mon, 02 Apr 2007 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.9-release/</guid>
+      <description>The 0.9 release of Nutch is now available. This is the second release of Nutch based entirely on the underlying Hadoop platform. This release includes several critical bug fixes, as well as key speedups described in more detail at Sami Siren&amp;rsquo;s blog. See list of changes made in this version. The release is available here.</description>
+    </item>
+  </channel>
+</rss>

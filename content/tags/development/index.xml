@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Apache Nutch™</title>
+    <link>/tags/development/</link>
+    <description>Recent content in Development on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch focuses on 1.x series for main development</title>
+      <link>/news/nutch-dev-focus-1.x/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-dev-focus-1.x/</guid>
+      <description>After some discussion and a vote about the issue, the Nutch development community decided to focus their efforts on maintaining and releasing the 1.x series of Nutch, and to branch the now former Nutch trunk based on Gora, allowing others to try and improve it, while the mainline development goes on.</description>
+    </item>
+  </channel>
+</rss>

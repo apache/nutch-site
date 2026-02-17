@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Birthday on Apache Nutch™</title>
+    <link>/tags/birthday/</link>
+    <description>Recent content in Birthday on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/birthday/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Happy 10th Birthday Apache Nutch!!</title>
+      <link>/news/nutch-10th-birthday/</link>
+      <pubDate>Fri, 10 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-10th-birthday/</guid>
+      <description>It&amp;rsquo;s official, Apache Nutch is now a decade old! The project has come a long long way since inception, through acceptance into the Apache Incubator way back in Janurary 2005, to the Top Level Project it became on 21st April 2010. Happy birthday Nutch and thanks to all contributors past and present! See Doug Cutting&amp;rsquo;s tweet.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSU on Apache Nutch™</title>
+    <link>/tags/osu/</link>
+    <description>Recent content in OSU on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Sep 2004 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/osu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oregon State University switches to Nutch</title>
+      <link>/news/nutch-search-osu/</link>
+      <pubDate>Wed, 15 Sep 2004 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-search-osu/</guid>
+      <description>Oregon State University is converting its searching infrastructure from Googletm to the open source project Nutch. The effort to replace the Googletm will realize significant cost savings for Oregon State University, while promoting both the Nutch Search Engine and transparency in search engine use and management.&#xA;For more details see the announcement by OSU&amp;rsquo;s Open Source Lab.</description>
+    </item>
+  </channel>
+</rss>

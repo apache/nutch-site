@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ApacheCon on Apache Nutch™</title>
+    <link>/tags/apachecon/</link>
+    <description>Recent content in ApacheCon on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/apachecon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch tutorial at upcoming ApacheCon Europe in Budapest</title>
+      <link>/news/nutch-at-apachecon-eu-2014/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-eu-2014/</guid>
+      <description>The upcoming ApacheCon Europe in Budapest, November 17 - 21, 2014, will offer a one-day Nutch tutorial. Topics will span from Nutch installation and configuration up to plugin development. Both Nutch 1.x and 2.x are covered. The conference is a good opportunity to bring together both users and committers of Nutch and related projects.</description>
+    </item>
+    <item>
+      <title>Nutch at ApacheCon 2014, Denver Colorado</title>
+      <link>/news/nutch-at-apachecon-na-2014/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-na-2014/</guid>
+      <description>Lots of talk and loads of exposure for this at ApacheCon NA 2014 in the beautiful city of Denver, CO. This year one presentation focused on Building your Big Data Search Stack with Apache Nutch 2.x. You can see presentation slides below and follow the audio (sorry no video) here</description>
+    </item>
+    <item>
+      <title>Lucene at US ApacheCon</title>
+      <link>/news/nutch-at-apachecon-na-2009/</link>
+      <pubDate>Fri, 14 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-na-2009/</guid>
+      <description>ApacheCon US is once again in the Bay Area and Lucene is coming along for the ride! The Lucene community has planned two full days of talks, plus a meetup and the usual bevy of training. With a well-balanced mix of first time and veteran ApacheCon speakers, the Lucene track at ApacheCon US promises to have something for everyone. Be sure not to miss:&#xA;Training:&#xA;Lucene Boot Camp - A two day training session, Nov.</description>
+    </item>
+    <item>
+      <title>Lucene at ApacheCon Europe 2009 in Amsterdam</title>
+      <link>/news/nutch-at-apachecon-eu-2009/</link>
+      <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-eu-2009/</guid>
+      <description>Lucene will be extremely well represented at ApacheCon EU 2009 in Amsterdam, Netherlands this March 23-27, 2009:&#xA;Lucene Boot Camp - A two day training session, March 23 &amp;amp; 24th Solr Boot Camp - A one day training session, March 24th Introducing Apache Mahout - Grant Ingersoll. March 25th @ 10:30 Lucene/Solr Case Studies - Erik Hatcher. March 25th @ 11:30 Advanced Indexing Techniques with Apache Lucene - Michael Busch.</description>
+    </item>
+  </channel>
+</rss>

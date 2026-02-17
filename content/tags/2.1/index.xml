@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.1 on Apache Nutch™</title>
+    <link>/tags/2.1/</link>
+    <description>Recent content in 2.1 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Oct 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/2.1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch v2.1 Released</title>
+      <link>/news/nutch-2.1-release/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.1-release/</guid>
+      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.1. This release continues to provide Nutch users with a simplified Nutch distribution building on the 2.x development drive which is growing in popularity amongst the community. As well as addressing ~20 bugs this release also offers improved properties for better Solr configuration, upgrades to various Gora dependencies and the introduction of the option to build indexes in elastic search.</description>
+    </item>
+  </channel>
+</rss>

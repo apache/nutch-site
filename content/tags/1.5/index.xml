@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.5 on Apache Nutch™</title>
+    <link>/tags/1.5/</link>
+    <description>Recent content in 1.5 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/1.5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch 1.5 Released</title>
+      <link>/news/nutch-1.5-release/</link>
+      <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.5-release/</guid>
+      <description>The 1.5 release of Nutch is now available. This release includes several improvements including upgrades of several major components including Tika 1.1 and Hadoop 1.0.0, improvements to LinkRank and WebGraph elements as well as a number of new plugins covering blacklisting, filering and parsing to name a few. Please see the list of changes made in this version for a full breakdown of the 50 odd improvements the release boasts. The release is available here.</description>
+    </item>
+  </channel>
+</rss>

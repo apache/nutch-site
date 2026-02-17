@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.2 on Apache Nutch™</title>
+    <link>/tags/2.2/</link>
+    <description>Recent content in 2.2 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jun 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/2.2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch v2.2 Released</title>
+      <link>/news/nutch-2.2-release/</link>
+      <pubDate>Sat, 08 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.2-release/</guid>
+      <description>The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v2.2. This release includes over 30 bug fixes and over 25 improvements representing the third release of increasingly popular 2.x Nutch series. This release features inclusion of Crawler-Commons which Nutch now utilizes for improved robots.txt parsing, library upgrades to Apache Hadoop 1.1.1, Apache Gora 0.3, Apache Tika 1.2 and Automaton 1.11-8. Please see the list of changes or the release report made in this version for a full breakdown.</description>
+    </item>
+  </channel>
+</rss>

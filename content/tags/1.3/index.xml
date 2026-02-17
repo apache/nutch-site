@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.3 on Apache Nutch™</title>
+    <link>/tags/1.3/</link>
+    <description>Recent content in 1.3 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jun 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/1.3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch 1.3 Released</title>
+      <link>/news/nutch-1.3-release/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.3-release/</guid>
+      <description>The 1.3 release of Nutch is now available. This release includes several improvements (improved RSS parsing support, tighter integration with Apache Tika, external parsing support, improved language identification and an order of magnitude smaller source release tarball &amp;ndash; only about 2MB!). Please see the list of changes made in this version. The release is available here.</description>
+    </item>
+  </channel>
+</rss>

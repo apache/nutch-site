@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Issues on Apache Nutch™</title>
+    <link>/tags/issues/</link>
+    <description>Recent content in Issues on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/issues/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch Reaches 2000th Jira Issue</title>
+      <link>/news/2000th-jira-issue/</link>
+      <pubDate>Thu, 23 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>/news/2000th-jira-issue/</guid>
+      <description>NUTCH-2000 is the 2000th Jira issues opened.</description>
+    </item>
+  </channel>
+</rss>
