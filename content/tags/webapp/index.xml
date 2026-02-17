@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webapp on Apache Nutch™</title>
+    <link>/tags/webapp/</link>
+    <description>Recent content in Webapp on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wicket WebApp now part of Nutch 2.x Codebase</title>
+      <link>/news/wicket-webapp-gsoc/</link>
+      <pubDate>Mon, 22 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>/news/wicket-webapp-gsoc/</guid>
+      <description>After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.X branch now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This not only greatly lowers the barrier for direct interaction with the Nutch 2.X REST API but also provides a stepping stone from which we intend to backport this work to the Nutch 1.X (trunk) series.&#xA;Some of the Web Application features include:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Incubator on Apache Nutch™</title>
+    <link>/tags/incubator/</link>
+    <description>Recent content in Incubator on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jun 2005 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/incubator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch graduates from Incubator</title>
+      <link>/news/nutch-graduates-from-incubator/</link>
+      <pubDate>Wed, 15 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-graduates-from-incubator/</guid>
+      <description>Nutch has now graduated from the Apache incubator, and is now a Subproject of Lucene.</description>
+    </item>
+    <item>
+      <title>Nutch Joins Apache Incubator</title>
+      <link>/news/nutch-joins-incubator/</link>
+      <pubDate>Sat, 15 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-joins-incubator/</guid>
+      <description>Nutch is a two-year-old open source project, previously hosted at Sourceforge and backed by its own non-profit organization. The non-profit was founded in order to assign copyright, so that we could retain the right to change the license. We have now determined that the Apache license is the appropriate license for Nutch and no longer require the overhead of an independent non-profit organization. Nutch&amp;rsquo;s board of directors and its developers were both polled and supported the move to the Apache foundation.</description>
+    </item>
+  </channel>
+</rss>

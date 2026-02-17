@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.3 on Apache Nutch™</title>
+    <link>/tags/2.3/</link>
+    <description>Recent content in 2.3 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/2.3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 2.3 Release</title>
+      <link>/news/nutch-2.3-release/</link>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.3-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3, we advise all current users and developers of the 2.X series to upgrade to this release. After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.3 release now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This release is the result of many months of work and 143 issues addressed.</description>
+    </item>
+  </channel>
+</rss>

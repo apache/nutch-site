@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.1 on Apache Nutch™</title>
+    <link>/tags/1.1/</link>
+    <description>Recent content in 1.1 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/1.1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Nutch 1.1 Released</title>
+      <link>/news/nutch-1.1-release/</link>
+      <pubDate>Sun, 06 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.1-release/</guid>
+      <description>The 1.1 release of Nutch is now available. This release includes several major upgrades of existing libraries (Hadoop, Solr, Tika, etc.) on which Nutch depends. Various bug fixes, and speedups (e.g., to Fetcher2) have also been included. See list of changes made in this version. The release is available here.</description>
+    </item>
+  </channel>
+</rss>

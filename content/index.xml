@@ -6,8 +6,22 @@
     <description>Recent content on Apache Nutch™</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 1.22 Release</title>
+      <link>/news/nutch-1.22-release/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.22-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.22, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;Download Nutch 1.22 You may also be interested in the 1.22 release report.&#xA;In the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central.</description>
+    </item>
+    <item>
+      <title>Nutch will migrate to Java 17</title>
+      <link>/news/upgrade-to-jdk17/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/news/upgrade-to-jdk17/</guid>
+      <description>Nutch v1.22 will be the last version to run on Java 11.&#xA;Starting with the development of version 1.23 we will migrate to Java 17. To run or compile Nutch, a Java 17 runtime (JRE) and JDK will then be required.&#xA;See also the discussion on the Nutch development mailing list.</description>
+    </item>
     <item>
       <title>Nutch 1.21 Release</title>
       <link>/news/nutch-1.21-release/</link>
@@ -37,11 +51,333 @@
       <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.18, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
     </item>
     <item>
-      <title>Legacy Nutch News Announcements</title>
-      <link>/news/legacy-nutch-news/</link>
-      <pubDate>Thu, 02 Mar 2017 21:56:55 +0100</pubDate>
-      <guid>/news/legacy-nutch-news/</guid>
-      <description>02 July 2020 - Nutch 1.17 Release The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.17, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <title>Nutch 1.17 Release</title>
+      <link>/news/nutch-1.17-release/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.17-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.17, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 1.16 Release</title>
+      <link>/news/nutch-1.16-release/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.16-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.16, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 2.4 Release</title>
+      <link>/news/nutch-2.4-release/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.4-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.4, we advise all current users and developers of the 2.X series to upgrade to this release.&#xA;This release contains 81 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 2.X series, release artifacts are made available as only source and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch Wiki Migrated</title>
+      <link>/news/nutch-wiki-migrated/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-wiki-migrated/</guid>
+      <description>The Apache Nutch wiki has been migrated from MoinMoin to Confluence.</description>
+    </item>
+    <item>
+      <title>Nutch 1.15 Release</title>
+      <link>/news/nutch-1.15-release/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.15-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.15, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 1.14 Release</title>
+      <link>/news/nutch-1.14-release/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.14-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.14, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 1.13 Release</title>
+      <link>/news/nutch-1.13-release/</link>
+      <pubDate>Sun, 02 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.13-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.13, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 1.12 Release</title>
+      <link>/news/nutch-1.12-release/</link>
+      <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.12-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.12, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and over 40 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 2.3.1 Release</title>
+      <link>/news/nutch-2.3.1-release/</link>
+      <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.3.1-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3.1, we advise all current users and developers of the 2.X series to upgrade to this release.&#xA;This bug fix release contains around 40 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 2.X series, release artifacts are made available as only source and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 1.11 Release</title>
+      <link>/news/nutch-1.11-release/</link>
+      <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.11-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.11, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and around 100 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Nutch 1.10 Release</title>
+      <link>/news/nutch-1.10-release/</link>
+      <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.10-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.10, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and well over 100 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+    </item>
+    <item>
+      <title>Apache Nutch Reaches 2000th Jira Issue</title>
+      <link>/news/2000th-jira-issue/</link>
+      <pubDate>Thu, 23 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>/news/2000th-jira-issue/</guid>
+      <description>NUTCH-2000 is the 2000th Jira issues opened.</description>
+    </item>
+    <item>
+      <title>Nutch 2.3 Release</title>
+      <link>/news/nutch-2.3-release/</link>
+      <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.3-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3, we advise all current users and developers of the 2.X series to upgrade to this release. After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.3 release now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This release is the result of many months of work and 143 issues addressed.</description>
+    </item>
+    <item>
+      <title>Wicket WebApp now part of Nutch 2.x Codebase</title>
+      <link>/news/wicket-webapp-gsoc/</link>
+      <pubDate>Mon, 22 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>/news/wicket-webapp-gsoc/</guid>
+      <description>After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.X branch now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This not only greatly lowers the barrier for direct interaction with the Nutch 2.X REST API but also provides a stepping stone from which we intend to backport this work to the Nutch 1.X (trunk) series.&#xA;Some of the Web Application features include:</description>
+    </item>
+    <item>
+      <title>Apache Nutch v1.9 Released</title>
+      <link>/news/nutch-1.9-release/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.9-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.9, we advise all current users and developers of the 1.X series to upgrade to this release. This release addressed no fewer than 55 issues in total. Please see the list of changes for a full breakdown, or see the release report. As usual in the 1.X series, this release is made available both as source and binary.</description>
+    </item>
+    <item>
+      <title>Nutch tutorial at upcoming ApacheCon Europe in Budapest</title>
+      <link>/news/nutch-at-apachecon-eu-2014/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-eu-2014/</guid>
+      <description>The upcoming ApacheCon Europe in Budapest, November 17 - 21, 2014, will offer a one-day Nutch tutorial. Topics will span from Nutch installation and configuration up to plugin development. Both Nutch 1.x and 2.x are covered. The conference is a good opportunity to bring together both users and committers of Nutch and related projects.</description>
+    </item>
+    <item>
+      <title>Apache Nutch Participates in Google Summer of Code</title>
+      <link>/news/nutch-gsoc-2014/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-gsoc-2014/</guid>
+      <description>For the first time in Nutch project history, we are participating as part of Apache&amp;rsquo;s mentoring efforts in the ever popular Google Summer of Code program. This years project involves the creation of a Apache Wicket-based Web Application for Nutch 2.X branch.&#xA;Keep your eyes peeled and check here for updates as the project progresses throughout the summer.</description>
+    </item>
+    <item>
+      <title>Nutch at ApacheCon 2014, Denver Colorado</title>
+      <link>/news/nutch-at-apachecon-na-2014/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-na-2014/</guid>
+      <description>Lots of talk and loads of exposure for this at ApacheCon NA 2014 in the beautiful city of Denver, CO. This year one presentation focused on Building your Big Data Search Stack with Apache Nutch 2.x. You can see presentation slides below and follow the audio (sorry no video) here</description>
+    </item>
+    <item>
+      <title>Apache Nutch v1.8 Released</title>
+      <link>/news/nutch-1.8-release/</link>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.8-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.8, we advise all current users and developers of the 1.X series to upgrade to this release. Alhough this release includes library upgrades to Crawler Commons 0.3 and Apache Tika 1.5, it also provides over 30 bug fixes as well as 18 improvements. Please see the list of changes for a full breakdown, or see the release report.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v2.2.1 Released</title>
+      <link>/news/nutch-2.2.1-release/</link>
+      <pubDate>Tue, 02 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.2.1-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.2.1, we advise all current users and developers of the 2.X series to upgrade to this release ASAP. Although this release includes library upgrades to Apache Hadoop 1.2.0 and Apache Tika 1.3, it is predominantly a bug fix for NUTCH-1591 - Incorrect conversion of ByteBuffer to String. Please see the list of changes for a full breakdown, or see the release report.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v1.7 Released</title>
+      <link>/news/nutch-1.7-release/</link>
+      <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.7-release/</guid>
+      <description>The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v1.7. This release includes over 20 bug fixes, as many improvements; most noticeably featuring a new pluggable indexing architecture which currently supports Apache Solr and Elastic Search. Shadowing the recent Nutch 2.2 release, parsing of Robots.txt is now delegated to Crawler-Commons. Key library upgrades have been made to Apache Hadoop 1.2.0 and Apache Tika 1.3. Please see the list of changes or the release report made in this version for a full breakdown.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v2.2 Released</title>
+      <link>/news/nutch-2.2-release/</link>
+      <pubDate>Sat, 08 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.2-release/</guid>
+      <description>The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v2.2. This release includes over 30 bug fixes and over 25 improvements representing the third release of increasingly popular 2.x Nutch series. This release features inclusion of Crawler-Commons which Nutch now utilizes for improved robots.txt parsing, library upgrades to Apache Hadoop 1.1.1, Apache Gora 0.3, Apache Tika 1.2 and Automaton 1.11-8. Please see the list of changes or the release report made in this version for a full breakdown.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v1.6 Released</title>
+      <link>/news/nutch-1.6-release/</link>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.6-release/</guid>
+      <description>The Apache Nutch PMC are extremely pleased to announce the release of Apache Nutch v1.6. This release includes over 20 bug fixes, the same in improvements, as well as new functionalities including a new HostNormalizer, the ability to dynamically set fetchInterval by MIME-type and functional enhancements to the Indexer API inluding the normalization of URL&amp;rsquo;s and the deletion of robots noIndex documents. Other notable improvements include the upgrade of key dependencies to Tika 1.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v2.1 Released</title>
+      <link>/news/nutch-2.1-release/</link>
+      <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.1-release/</guid>
+      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.1. This release continues to provide Nutch users with a simplified Nutch distribution building on the 2.x development drive which is growing in popularity amongst the community. As well as addressing ~20 bugs this release also offers improved properties for better Solr configuration, upgrades to various Gora dependencies and the introduction of the option to build indexes in elastic search.</description>
+    </item>
+    <item>
+      <title>Happy 10th Birthday Apache Nutch!!</title>
+      <link>/news/nutch-10th-birthday/</link>
+      <pubDate>Fri, 10 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-10th-birthday/</guid>
+      <description>It&amp;rsquo;s official, Apache Nutch is now a decade old! The project has come a long long way since inception, through acceptance into the Apache Incubator way back in Janurary 2005, to the Top Level Project it became on 21st April 2010. Happy birthday Nutch and thanks to all contributors past and present! See Doug Cutting&amp;rsquo;s tweet.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v1.5.1 Released</title>
+      <link>/news/nutch-1.5.1-release/</link>
+      <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.5.1-release/</guid>
+      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v1.5.1. This release is a maintainence release of the popular 1.5.X mainstream version of Nutch which has been widely adopted within the community. Please see the list of changes made in this version for a full breakdown. The release is available here.</description>
+    </item>
+    <item>
+      <title>Apache Nutch v2.0 Released</title>
+      <link>/news/nutch-2.0-release/</link>
+      <pubDate>Sat, 07 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.0-release/</guid>
+      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.0. This release offers users an edition focused on large scale crawling which builds on storage abstraction (via Apache Gora™) for big data stores such as Apache Accumulo™, Apache Avro™, Apache Cassandra™, Apache HBase™, HDFS™, an in memory data store and various high profile SQL stores. After some two years of development Nutch v2.0 also offers all of the mainstream Nutch functionality and it builds on Apache Solr™ adding web-specifics, such as a crawler, a link-graph database and parsing support handled by Apache Tika™ for HTML and an array other document formats.</description>
+    </item>
+    <item>
+      <title>Apache Nutch 1.5 Released</title>
+      <link>/news/nutch-1.5-release/</link>
+      <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.5-release/</guid>
+      <description>The 1.5 release of Nutch is now available. This release includes several improvements including upgrades of several major components including Tika 1.1 and Hadoop 1.0.0, improvements to LinkRank and WebGraph elements as well as a number of new plugins covering blacklisting, filering and parsing to name a few. Please see the list of changes made in this version for a full breakdown of the 50 odd improvements the release boasts. The release is available here.</description>
+    </item>
+    <item>
+      <title>Apache Nutch 1.4 Released</title>
+      <link>/news/nutch-1.4-release/</link>
+      <pubDate>Sat, 26 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.4-release/</guid>
+      <description>The 1.4 release of Nutch is now available. This release includes several improvements including allowing Parsers to declare support for multiple MIME types, configurable Fetcher Queue depth, Fetcher speed improvements, tigther Tika integration, and support for HTTP auth in Solr indexing. Please see the list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Apache Nutch focuses on 1.x series for main development</title>
+      <link>/news/nutch-dev-focus-1.x/</link>
+      <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-dev-focus-1.x/</guid>
+      <description>After some discussion and a vote about the issue, the Nutch development community decided to focus their efforts on maintaining and releasing the 1.x series of Nutch, and to branch the now former Nutch trunk based on Gora, allowing others to try and improve it, while the mainline development goes on.</description>
+    </item>
+    <item>
+      <title>Apache Nutch 1.3 Released</title>
+      <link>/news/nutch-1.3-release/</link>
+      <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.3-release/</guid>
+      <description>The 1.3 release of Nutch is now available. This release includes several improvements (improved RSS parsing support, tighter integration with Apache Tika, external parsing support, improved language identification and an order of magnitude smaller source release tarball &amp;ndash; only about 2MB!). Please see the list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Apache Nutch 1.2 Released</title>
+      <link>/news/nutch-1.2-release/</link>
+      <pubDate>Fri, 24 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.2-release/</guid>
+      <description>The 1.2 release of Nutch is now available. This release includes several improvements (addition of parse-html as a selectable parser again, configurable per-field indexing), new features (including adding timing information to all Tool classes, and implementation of parser timeouts), and bug fixes (fixing an NPE in distributed search, fixing of XML formatting issues per Document fields). Please see the list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Apache Nutch 1.1 Released</title>
+      <link>/news/nutch-1.1-release/</link>
+      <pubDate>Sun, 06 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.1-release/</guid>
+      <description>The 1.1 release of Nutch is now available. This release includes several major upgrades of existing libraries (Hadoop, Solr, Tika, etc.) on which Nutch depends. Various bug fixes, and speedups (e.g., to Fetcher2) have also been included. See list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Apache Nutch graduates to TLP</title>
+      <link>/news/nutch-graduates-tlp/</link>
+      <pubDate>Wed, 21 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-graduates-tlp/</guid>
+      <description>Passed by unanimous approval of the Apache Board, Nutch graduated to TLP status. We are in the process of updating the website, and moving things around, so if you notice anything out of place, please let us know.</description>
+    </item>
+    <item>
+      <title>Lucene at US ApacheCon</title>
+      <link>/news/nutch-at-apachecon-na-2009/</link>
+      <pubDate>Fri, 14 Aug 2009 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-na-2009/</guid>
+      <description>ApacheCon US is once again in the Bay Area and Lucene is coming along for the ride! The Lucene community has planned two full days of talks, plus a meetup and the usual bevy of training. With a well-balanced mix of first time and veteran ApacheCon speakers, the Lucene track at ApacheCon US promises to have something for everyone. Be sure not to miss:&#xA;Training:&#xA;Lucene Boot Camp - A two day training session, Nov.</description>
+    </item>
+    <item>
+      <title>Apache Nutch 1.0 Released</title>
+      <link>/news/nutch-1.0-release/</link>
+      <pubDate>Mon, 23 Mar 2009 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.0-release/</guid>
+      <description>The 1.0 release of Nutch is now available. This release includes several major feature improvements such as new indexing framework, new scoring framework, Apache Solr integration just to mention a few. See list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Lucene at ApacheCon Europe 2009 in Amsterdam</title>
+      <link>/news/nutch-at-apachecon-eu-2009/</link>
+      <pubDate>Mon, 09 Feb 2009 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-eu-2009/</guid>
+      <description>Lucene will be extremely well represented at ApacheCon EU 2009 in Amsterdam, Netherlands this March 23-27, 2009:&#xA;Lucene Boot Camp - A two day training session, March 23 &amp;amp; 24th Solr Boot Camp - A one day training session, March 24th Introducing Apache Mahout - Grant Ingersoll. March 25th @ 10:30 Lucene/Solr Case Studies - Erik Hatcher. March 25th @ 11:30 Advanced Indexing Techniques with Apache Lucene - Michael Busch.</description>
+    </item>
+    <item>
+      <title>Nutch 0.9 Released</title>
+      <link>/news/nutch-0.9-release/</link>
+      <pubDate>Mon, 02 Apr 2007 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.9-release/</guid>
+      <description>The 0.9 release of Nutch is now available. This is the second release of Nutch based entirely on the underlying Hadoop platform. This release includes several critical bug fixes, as well as key speedups described in more detail at Sami Siren&amp;rsquo;s blog. See list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Nutch 0.8.1 Released</title>
+      <link>/news/nutch-0.8.1-release/</link>
+      <pubDate>Sun, 24 Sep 2006 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.8.1-release/</guid>
+      <description>The 0.8.1 release of Nutch is now available. This is a maintenance release to 0.8 branch fixing many serous bugs found in version 0.8. See list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Nutch 0.8 Released</title>
+      <link>/news/nutch-0.8-release/</link>
+      <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.8-release/</guid>
+      <description>The 0.8 release of Nutch is now available. This is the first release of Nutch based on hadoop architecure. See CHANGES.txt for list of changes made in this version. The release is available here.</description>
+    </item>
+    <item>
+      <title>Nutch 0.7.2 Released</title>
+      <link>/news/nutch-0.7.2-release/</link>
+      <pubDate>Fri, 31 Mar 2006 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.7.2-release/</guid>
+      <description>The 0.7.2 release of Nutch is now available. This is a bug fix release for 0.7 branch. See CHANGES.txt for details. The release is available here.</description>
+    </item>
+    <item>
+      <title>Nutch 0.7.1 Released</title>
+      <link>/news/nutch-0.7.1-release/</link>
+      <pubDate>Sat, 01 Oct 2005 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.7.1-release/</guid>
+      <description>The 0.7.1 release of Nutch is now available. This is a bug fix release. See CHANGES.txt for details. The release is available here.</description>
+    </item>
+    <item>
+      <title>Nutch 0.7 Released</title>
+      <link>/news/nutch-0.7-release/</link>
+      <pubDate>Wed, 17 Aug 2005 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.7-release/</guid>
+      <description>This is the first Nutch release as an Apache Lucene sub-project. See CHANGES.txt for details. The release is available here.</description>
+    </item>
+    <item>
+      <title>Nutch graduates from Incubator</title>
+      <link>/news/nutch-graduates-from-incubator/</link>
+      <pubDate>Wed, 15 Jun 2005 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-graduates-from-incubator/</guid>
+      <description>Nutch has now graduated from the Apache incubator, and is now a Subproject of Lucene.</description>
+    </item>
+    <item>
+      <title>Nutch Joins Apache Incubator</title>
+      <link>/news/nutch-joins-incubator/</link>
+      <pubDate>Sat, 15 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-joins-incubator/</guid>
+      <description>Nutch is a two-year-old open source project, previously hosted at Sourceforge and backed by its own non-profit organization. The non-profit was founded in order to assign copyright, so that we could retain the right to change the license. We have now determined that the Apache license is the appropriate license for Nutch and no longer require the overhead of an independent non-profit organization. Nutch&amp;rsquo;s board of directors and its developers were both polled and supported the move to the Apache foundation.</description>
+    </item>
+    <item>
+      <title>Creative Commons launches Nutch-based Search</title>
+      <link>/news/nutch-search-creative-commons/</link>
+      <pubDate>Wed, 15 Sep 2004 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-search-creative-commons/</guid>
+      <description>Creative Commons unveiled a beta version of its search engine, which scours the web for text, images, audio, and video free to re-use on certain terms a search refinement offered by no other company or organization.&#xA;See the Creative Commons Press Release for more details.</description>
+    </item>
+    <item>
+      <title>Oregon State University switches to Nutch</title>
+      <link>/news/nutch-search-osu/</link>
+      <pubDate>Wed, 15 Sep 2004 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-search-osu/</guid>
+      <description>Oregon State University is converting its searching infrastructure from Googletm to the open source project Nutch. The effort to replace the Googletm will realize significant cost savings for Oregon State University, while promoting both the Nutch Search Engine and transparency in search engine use and management.&#xA;For more details see the announcement by OSU&amp;rsquo;s Open Source Lab.</description>
     </item>
     <item>
       <title>About</title>
@@ -83,7 +419,7 @@
       <link>/download/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/download/</guid>
-      <description>Download Apache Nutch 1.21 (src-tar, src-zip, bin-tar and bin-zip) artifacts can be downloaded from the table below. See CHANGES.md for the comprehensive change log for Nutch 1.21 released on 2025-07-20 (YYYY-MM-DD).&#xA;All Apache Nutch distributions is distributed under the Apache License, version 2.0. See the NOTICE.txt file contained in each Nutch release artifact for applicable copyright attribution notices.&#xA;The link in the Mirrors column below should display a list of available mirrors with a default selection based on your inferred location.</description>
+      <description>Download Apache Nutch 1.22 (src-tar, src-zip, bin-tar and bin-zip) artifacts can be downloaded from the table below. See CHANGES.md for the comprehensive change log for Nutch 1.22 released on 2025-07-20 (YYYY-MM-DD).&#xA;All Apache Nutch distributions is distributed under the Apache License, version 2.0. See the NOTICE.txt file contained in each Nutch release artifact for applicable copyright attribution notices.&#xA;The link in the Mirrors column below should display a list of available mirrors with a default selection based on your inferred location.</description>
     </item>
     <item>
       <title>FAQs</title>
@@ -104,7 +440,7 @@
       <link>/documentation/javadoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/documentation/javadoc/</guid>
-      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.21 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.21 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
+      <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.22 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.22 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
     </item>
     <item>
       <title>Mailing Lists</title>

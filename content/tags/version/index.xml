@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Version on Apache Nutch™</title>
+    <link>/tags/version/</link>
+    <description>Recent content in Version on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/version/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch will migrate to Java 17</title>
+      <link>/news/upgrade-to-jdk17/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/news/upgrade-to-jdk17/</guid>
+      <description>Nutch v1.22 will be the last version to run on Java 11.&#xA;Starting with the development of version 1.23 we will migrate to Java 17. To run or compile Nutch, a Java 17 runtime (JRE) and JDK will then be required.&#xA;See also the discussion on the Nutch development mailing list.</description>
+    </item>
+  </channel>
+</rss>

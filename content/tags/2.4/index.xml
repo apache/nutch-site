@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2.4 on Apache Nutch™</title>
+    <link>/tags/2.4/</link>
+    <description>Recent content in 2.4 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/2.4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 2.4 Release</title>
+      <link>/news/nutch-2.4-release/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-2.4-release/</guid>
+      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.4, we advise all current users and developers of the 2.X series to upgrade to this release.&#xA;This release contains 81 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 2.X series, release artifacts are made available as only source and also available within Maven Central as a Maven dependency.</description>
+    </item>
+  </channel>
+</rss>

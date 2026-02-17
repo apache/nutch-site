@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nutch Tutorial on Apache Nutch™</title>
+    <link>/tags/nutch-tutorial/</link>
+    <description>Recent content in Nutch Tutorial on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/nutch-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch tutorial at upcoming ApacheCon Europe in Budapest</title>
+      <link>/news/nutch-at-apachecon-eu-2014/</link>
+      <pubDate>Thu, 31 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-at-apachecon-eu-2014/</guid>
+      <description>The upcoming ApacheCon Europe in Budapest, November 17 - 21, 2014, will offer a one-day Nutch tutorial. Topics will span from Nutch installation and configuration up to plugin development. Both Nutch 1.x and 2.x are covered. The conference is a good opportunity to bring together both users and committers of Nutch and related projects.</description>
+    </item>
+  </channel>
+</rss>

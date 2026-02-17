@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0.7.2 on Apache Nutch™</title>
+    <link>/tags/0.7.2/</link>
+    <description>Recent content in 0.7.2 on Apache Nutch™</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 Mar 2006 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/0.7.2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 0.7.2 Released</title>
+      <link>/news/nutch-0.7.2-release/</link>
+      <pubDate>Fri, 31 Mar 2006 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-0.7.2-release/</guid>
+      <description>The 0.7.2 release of Nutch is now available. This is a bug fix release for 0.7 branch. See CHANGES.txt for details. The release is available here.</description>
+    </item>
+  </channel>
+</rss>
