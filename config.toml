@@ -21,23 +21,27 @@ unsafe = true # allow raw HTML in markdown content
 
 [[menu.main]]
     name = "Community"
-    weight = -100
+    weight = -106
     url = "/community/"
 [[menu.main]]
     name = "Development"
-    weight = -100
+    weight = -105
     url = "/development/"
 [[menu.main]]
+    name = "Security"
+    weight = -104
+    url = "/documentation/security"
+[[menu.main]]
     name = "Docs"
-    weight = -100
+    weight = -103
     url = "/documentation/"
 [[menu.main]]
     name = "Download"
-    weight = -100
+    weight = -102
     url = "/download/"    
 [[menu.main]]
     name = "News"
-    weight = -100
+    weight = -101
     url = "/news/"
 [[menu.main]]
     name = "The Apache Software Foundation"
