@@ -34,9 +34,9 @@ Nutch can be run on a local instance or on a Hadoop cluster. For both runtimes, 
 
 #### Nutch Server and REST API
 
-The Nutch REST API is not protected by authentication or authorization. It must not be publicly available. Access should only be granted to trusted users. Granting access to the REST API is equivalent to granting access to the instance where the service is running. This includes permissions to write to the local filesystem and run any Java class available on the service's class path.
+Nutch releases which packaged the legacy JAX-RS Nutch service/server/REST API did not provide any authentication and/or authorization. Therefore the service must not be publicly available. Access should only be granted to trusted users. Granting access to the service is equivalent to granting access to the instance where the service is running. This includes permissions to write to the local filesystem and run any Java class available on the service's class path.
 
-Please also note that the Nutch server resp. all classes in the package `org.apache.nutch.service` are deprecated and will be removed in an upcoming Nutch release.
+The legacy JAX-RS Nutch service was removed in Nutch 1.23.
 
 #### Information Leakage
 
