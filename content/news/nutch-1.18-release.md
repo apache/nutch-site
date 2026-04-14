@@ -13,7 +13,7 @@ current users and developers of the 1.X series to upgrade to this release.
 
 An account of the CHANGES in this release can be seen in the
 [release report](https://s.apache.org/lqara).
-Breaking changes are listed in the [changelog](https://apache.org/dist/nutch/1.18/CHANGES.txt).
+Breaking changes are listed in the [changelog](https://archive.apache.org/dist/nutch/1.18/CHANGES.txt).
 
 As usual in the 1.X series, release artifacts are made available as both source and binary and also available within
 [Maven Central](https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.18) as a Maven dependency.

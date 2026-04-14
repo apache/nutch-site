@@ -16,7 +16,7 @@ This bug fix release contains around 40 issues addressed. For a complete overvie
 
 As usual in the 2.X series, release artifacts are made available as only source and also available within
 [Maven Central](https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&core=gav) as a Maven dependency.
-The release is available from our [DOWNLOADS PAGE](/downloads.html).
+The release is available from our [DOWNLOADS PAGE](/download/).
 
 The recommended Gora backends for this Nutch release are
 

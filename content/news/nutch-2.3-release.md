@@ -19,7 +19,7 @@ This release is the result of many months of work and 143 issues addressed. For 
 
 As usual in the 2.x series, this release is made available only as source, but is also available within
 [Maven Central](https://search.maven.org/) as a Maven dependency.
-The release is available from our [DOWNLOADS PAGE](/downloads.html).
+The release is available from our [DOWNLOADS PAGE](/download/).
 
 The supported [Apache Gora](https://gora.apache.org/) v0.5 backends are;
 

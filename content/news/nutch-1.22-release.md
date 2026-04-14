@@ -14,6 +14,6 @@ The <a href="https://projects.apache.org/committee.html?nutch" target="_blank">A
   <a class="button primary big" href="/download" onclick="_gaq.push(['_trackEvent', 'kube', 'download']);">Download Nutch 1.22</a>
 </div>
 
-You may also be interested in the <a href="https://s.apache.org/1ip89 " target="_blank">1.22 release report</a>.
+You may also be interested in the <a href="https://s.apache.org/1ip89" target="_blank">1.22 release report</a>.
 
 In the 1.X series, release artifacts are made available as both source and binary and also available within <a href="https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.22" target="_blank">Maven Central</a>.

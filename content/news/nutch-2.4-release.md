@@ -16,7 +16,7 @@ issues please see the [release report](https://issues.apache.org/jira/secure/Rel
 
 As usual in the 2.X series, release artifacts are made available as only source and also available within
 [Maven Central](https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:2.4) as a Maven dependency.
-The release is available from our [downloads page](/downloads.html).
+The release is available from our [downloads page](/download/).
 
 We expect that v2.4 is the last release on the 2.X series. We've decided to freeze the development on the 2.X branch for now, as no committer is
 actively working on it.

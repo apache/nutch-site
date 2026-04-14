@@ -13,8 +13,8 @@ current users and developers of the 1.X series to upgrade to this release.
 
 An account of the CHANGES in this release can be seen in the
 [release report](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12346090).
-Breaking changes are listed in the [changelog](https://apache.org/dist/nutch/1.17/CHANGES.txt).
+Breaking changes are listed in the [changelog](https://archive.apache.org/dist/nutch/1.17/CHANGES.txt).
 
 As usual in the 1.X series, release artifacts are made available as both source and binary and also available within
 [Maven Central](https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.17) as a Maven dependency.
-The release is available from our [downloads page](/downloads.html).
+The release is available from our [downloads page](/download/).

@@ -16,4 +16,4 @@ This release is the result of many months of work and over 40 issues addressed. 
 
 As usual in the 1.X series, release artifacts are made available as both source and binary and also available within
 [Maven Central](https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&core=gav) as a Maven dependency.
-The release is available from our [DOWNLOADS PAGE](/downloads.html).
+The release is available from our [DOWNLOADS PAGE](/download/).
