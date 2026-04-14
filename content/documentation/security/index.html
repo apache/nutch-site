@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="generator" content="Hugo 0.131.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Apache Nutch™ – Security </title>
+
+  
+  <meta name="description" content="Reporting Nutch security issues and an explanation of the Nutch security model"> 
+  
+  
+  
+  
+  
+
+  
+
+  <meta name="author" content="Apache Nutch Project Management Committee">
+
+
+  <meta property="og:url" content="/documentation/security/">
+  <meta property="og:site_name" content="Apache Nutch™">
+  <meta property="og:title" content="Security">
+  <meta property="og:description" content="Reporting Nutch security issues and an explanation of the Nutch security model">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="documentation">
+
+  
+
+
+
+
+  
+  
+  
+
+  <link rel="canonical" href="/documentation/security/">  
+
+  <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+
+
+  <link href="/css/font.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/kube.legenda.css" rel="stylesheet" type="text/css">
+  <link href="/css/highlight.css" rel="stylesheet" type="text/css">
+  <link href="/css/main.css" rel="stylesheet" type="text/css">
+  
+
+ <link href="/css/custom.css" rel="stylesheet" type="text/css">
+
+  <script src="/js/jquery-2.1.4.min.js" type="text/javascript">
+  </script>
+
+  <script type="text/javascript" src="/js/tocbot.min.js"></script>
+  <script src="https://www.apachecon.com/event-images/snippet.js"></script>
+</head>
+
+
+<body class="page-kube">
+  <header> <div class="show-sm">
+    <div id="nav-toggle-box">
+      <div id="nav-toggle-brand">
+        <a href="/">Apache Nutch™</a>
+      </div><a data-component="toggleme" data-target="#top" href="#" id="nav-toggle"><i class="kube-menu"></i></a>
+    </div>
+  </div>
+  <div class="hide-sm" id="top">
+    <div id="top-brand">
+      <a href="/" title="home">Apache Nutch™</a>
+    </div>
+    <nav id="top-nav-main">
+      <ul>
+       
+       
+    <li><a href="/community/" >Community</a></li>
+    
+    <li><a href="/development/" >Development</a></li>
+    
+    <li><a href="/documentation/security" >Security</a></li>
+    
+    <li><a href="/documentation/" >Docs</a></li>
+    
+    <li><a href="/download/" >Download</a></li>
+    
+    <li><a href="/news/" >News</a></li>
+    
+    <li><a href="/apache/" >The Apache Software Foundation</a></li>
+    
+      </ul>
+    </nav>
+    <nav id="top-nav-extra"> 
+      <ul>
+          
+      </ul>
+    </nav>
+  </div>
+ </header>
+  <main>
+
+<div id="hero" class="wrap">
+  <h1>Security</h1>
+    <p>Reporting Nutch security issues and an explanation of the Nutch security model</p>
+</div>
+<ul id="posts">
+
+ <h1 id="reporting-security-issues-of-apache-nutch">Reporting Security Issues of Apache Nutch</h1>
+<p>The Apache Software Foundation is very active in eliminating security problems and denial-of-service attacks against its products.</p>
+<p>We strongly encourage people to report security issues privately via the <a href="https://www.apache.org/security/">ASF Security Team</a>&rsquo;s mailing list before disclosing them publicly.</p>
+<p>Please note that the security mailing list is intended solely for reporting undisclosed security vulnerabilities and managing the process of fixing them. We cannot accept regular bug reports or other queries at this address. Any email sent to this address that does not relate to an undisclosed security vulnerability in the Nutch source code will be ignored.</p>
+<p>The private security mailing address is: <a href="mailto:security@apache.org">security@apache.org</a></p>
+<h1 id="security-model">Security Model</h1>
+<p>Apache Nutch is designed to operate in trusted environments, either locally or on a Hadoop cluster.</p>
+<p>This section outlines the security model and key security considerations. Understanding how to use and deploy Nutch in a secure manner is mandatory.</p>
+<h2 id="trusted-configuration">Trusted Configuration</h2>
+<p>The configuration files used by Nutch are loaded during job execution. These files are treated as a trusted source and must not involve any user-supplied input at runtime.</p>
+<h2 id="nutch-runtime">Nutch Runtime</h2>
+<p>Nutch can be run on a local instance or on a Hadoop cluster. For both runtimes, it is mandatory that access to the runtime must be restricted to trusted users. Securing the Nutch runtime is essential. For information on securing a Hadoop cluster, please refer to the <a href="https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SecureMode.html">Apache Hadoop security page</a>.</p>
+<h2 id="nutch-server-and-rest-api">Nutch Server and REST API</h2>
+<p>Nutch releases which packaged the legacy JAX-RS Nutch service/server/REST API did not provide any authentication and/or authorization. Therefore the service must not be publicly available. Access should only be granted to trusted users. Granting access to the service is equivalent to granting access to the instance where the service is running. This includes permissions to write to the local filesystem and run any Java class available on the service&rsquo;s class path.</p>
+<p>The legacy JAX-RS Nutch service was removed in Nutch 1.23.</p>
+<h2 id="information-leakage">Information Leakage</h2>
+<p>By default, Nutch is configured to &ldquo;crawl&rdquo; the local file system and intranet resources. Feeding an intranet search is a common use case for Nutch. Additionally, Nutch can crawl web sites that require authorization. If the crawled data is exposed to the public, whether as a search index or in any other data formats (e.g., WARC files), it is mandatory to ensure that no private resources are included in the given crawl.</p>
+<p>Measures to prevent information leakage include:</p>
+<ul>
+<li>Disabling access to the local file system (disable the &ldquo;protocol-file&rdquo; plugin).</li>
+<li>Maintaining restrictive URL filters.</li>
+<li>Enabling IP address filters to prevent access to private IP address ranges.</li>
+</ul>
+<p>An attacker may place arbitrary links on pages visited by the crawler, for example a link to <code>file:///etc/passwd</code>. The crawler configuration must ensure that such links are not followed.</p>
+<h1 id="security-related-questions">Security-Related Questions</h1>
+<p>If you have security-related questions, please contact the Nutch team over the <a href="mailto:dev@nutch.apache.org">dev</a> or <a href="mailto:user@nutch.apache.org">user</a> mailing list. See <a href="/community/mailing-lists/">Mailing Lists</a> for more information.</p>
+<h1 id="known-security-vulnerabilities">Known Security Vulnerabilities</h1>
+<p>The following security vulnerabilities are known:</p>
+<ul>
+<li>See the section about the <a href="#nutch-server-and-rest-api">Nutch Server and REST API</a>.</li>
+</ul>
+<h1 id="nutch-cve-list">Nutch CVE List</h1>
+<h2 id="cve-2021-23901httpsnvdnistgovvulndetailcve-2021-23901"><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-23901">CVE-2021-23901</a></h2>
+<p>Type: XXE injection<br/>
+Affects Nutch version (up to): 1.17<br/>
+Fixed Nutch version: 1.18<br/>
+Publicly announced on <a href="https://lists.apache.org/thread/y1onyktyk5cbz3nofor1goko177hh2vt">2021-01-24</a><br/>
+Reporter / Thanks To: Martin Heyden</p>
+<h2 id="cve-2016-6809httpsnvdnistgovvulndetailcve-2016-6809"><a href="https://nvd.nist.gov/vuln/detail/CVE-2016-6809">CVE-2016-6809</a></h2>
+<p>Type: deserialization of untrusted data<br/>
+Affects Nutch version (up to): 2.3.1<br/>
+Fixed Nutch version: 2.4<br/>
+Publicly announced on <a href="https://lists.apache.org/thread/9knfvy04nvtzpdfh5cng3f7421y7fo46">2019-10-15</a><br/>
+Reporter / Thanks To: Pierre Ernst<br/></p>
+
+  
+</ul>
+</main>
+  <footer> 
+    <footer id="footer">
+    <p>&copy; 2004-2026 The Apache Software Foundation. Built using the <a href="https://github.com/jeblister/kube" target="_blank" rel="noopener noreferrer">kube Theme for Hugo</a>. Apache Nutch, Nutch, Apache, the Apache feather logo, and the Apache Nutch project logo are trademarks of The Apache Software Foundation.</p>
+  </footer>
+ 
+</footer>
+
+
+  <script src="/js/kube.js" type="text/javascript">
+  </script>
+  <script src="/js/kube.legenda.js" type="text/javascript">
+  </script>
+  <script src="/js/main.js" type="text/javascript">
+  </script>
+</body>
+
+</html>
