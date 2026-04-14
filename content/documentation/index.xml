@@ -29,6 +29,13 @@
       <description>The Nutch 1.X releases are cut from the Nutch master branch code base.&#xA;Current Releases Javadoc Nutch 1.22 Javadoc&#xA;Current Releases Nutch Configuration Properties Nutch 1.22 configuration properties&#xA;Javadocs of Archived Releases The Nutch release packages (source and binary) include the Javadocs. Archived release packages are available in the Apache Archives, see also the Apache Nutch download page.</description>
     </item>
     <item>
+      <title>Security</title>
+      <link>/documentation/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/documentation/security/</guid>
+      <description>Reporting Security Issues of Apache Nutch The Apache Software Foundation is very active in eliminating security problems and denial-of-service attacks against its products.&#xA;We strongly encourage people to report security issues privately via the ASF Security Team&amp;rsquo;s mailing list before disclosing them publicly.&#xA;Please note that the security mailing list is intended solely for reporting undisclosed security vulnerabilities and managing the process of fixing them. We cannot accept regular bug reports or other queries at this address.</description>
+    </item>
+    <item>
       <title>Tutorials</title>
       <link>/documentation/tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -391,7 +391,7 @@
       <link>/apache/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/apache/</guid>
-      <description> Visit the Apache Software Foundation Homepage Information about the Apache Licenses The Apache Security Team The Apache Software Foundation Sponsorship Program Sponsors and Thanks ASF Privacy Policies </description>
+      <description> Visit the Apache Software Foundation Homepage Information about the Apache Licenses The Apache Security Team. Please also visit our Security page. The Apache Software Foundation Sponsorship Program Sponsors and Thanks ASF Privacy Policies </description>
     </item>
     <item>
       <title>Board Reporting</title>
@@ -462,6 +462,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/community/people-credits/</guid>
       <description>The Team&#xD;A successful project requires many people to play many roles.&#xA;Put simply... this page is dedicated to those who have helped&#xD;Nutch along the way.&#xA;Members&#xD;The following is a list of project committers who also&#xD;currently sit on the Nutch Project Management Committee&#xA;Id&#xD;Name&#xD;Email&#xD;Roles&#xD;Company&#xD;mattmann&#xD;Chris A.&#xD;Mattmann&#xD;mattmann[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;markus&#xD;Markus Jelsma&#xD;markus[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Open Index&#xD;lewismc&#xD;Lewis&#xD;John McGibbney&#xD;lewismc[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;snagel&#xD;Sebastian&#xD;Nagel&#xD;snagel[at]apache[dot]org&#xD;Committer, PMC Member, Project Chair&#xD;Common Crawl&#xD;tejasp&#xD;Tejas&#xD;Patil&#xD;tejasp[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Facebook&#xD;kiran&#xD;Kiran&#xD;Chitturi&#xD;kiranchitturi[at]apache[dot]org&#xD;Committer, PMC Member&#xD;LucidWorks&#xD;feng&#xD;feng&#xD;lu&#xD;feng[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Patsnap&#xD;talat&#xD;Talat&#xD;Uyarer&#xD;talat[at]apache[dot]org&#xD;Committer, PMC Member&#xD;AGMLAB&#xD;jorgelbg&#xD;Jorge Luis&#xD;Betancourt&#xD;jorgelbg[at]apache[dot]org&#xD;Committer, PMC Member&#xD;trivago&#xD;momer&#xD;Mo Omer&#xD;momer[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Mithun&#xD;totaro&#xD;Giuseppe Totaro&#xD;totaro[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;asitang&#xD;Asitang Mishra&#xD;asitang[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;sujen&#xD;Sujen Shah&#xD;sujen[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;joyce&#xD;Michael Joyce&#xD;joyce[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;kamaci&#xD;Furkan KAMACI&#xD;kamaci[at]apache[dot]org&#xD;Committer, PMC Member&#xD;LAGOM&#xD;omkarr&#xD;Omkar Reddy&#xD;omkarr[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Juniper Networks&#xD;r0ann3l&#xD;Roannel Fernandez&#xD;r0ann3l[at]apache[dot]org&#xD;Committer, PMC Member&#xD;University of Informatics Sciences&#xD;balakuntala&#xD;Shashanka Balakuntala Srinivasa&#xD;balakuntala[at]apache[dot]org&#xD;Committer, PMC Member&#xD;Microsoft&#xD;tallison&#xD;Tim Allison&#xD;tallison[at]apache[dot]org&#xD;Committer, PMC Member&#xD;NASA JPL&#xD;Emeritus Committers&#xD;Doug Cutting&#xD;J&amp;eacute;r&amp;ocirc;me Charron&#xD;John Xing&#xD;Mike Cafarella&#xD;Piotr Kosiorowski&#xD;Otis Gospodnetić&#xD;Andrzej Bialecki&#xD;Sami Siren&#xD;Dennis Kubes&#xD;Dogacan G&amp;uuml;ney&#xD;Alexis de Tr&amp;eacute;glod&amp;eacute;&#xD;Ferdy Galema&#xD;Julien Nioche&#xD;Friends&#xD;Dan Fain (Yahoo!</description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>/documentation/security/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/documentation/security/</guid>
+      <description>Reporting Security Issues of Apache Nutch The Apache Software Foundation is very active in eliminating security problems and denial-of-service attacks against its products.&#xA;We strongly encourage people to report security issues privately via the ASF Security Team&amp;rsquo;s mailing list before disclosing them publicly.&#xA;Please note that the security mailing list is intended solely for reporting undisclosed security vulnerabilities and managing the process of fixing them. We cannot accept regular bug reports or other queries at this address.</description>
     </item>
     <item>
       <title>Source Code Management</title>
