@@ -203,7 +203,7 @@
 
 <property>
   <name>http.agent.version</name>
-  <value>Nutch-1.22</value>
+  <value>Nutch-1.23</value>
   <description>A version string to advertise in the User-Agent
    header.</description>
 </property>
@@ -1504,6 +1504,14 @@
 </property>
 
 <property>
+  <name>indexer.delete</name>
+  <value>false</value>
+  <description>Whether the indexer will delete documents that are gone. Gone pages include redirects and duplicates.
+  See also: 'link.delete.gone'.
+  </description>
+</property>
+
+<property>
   <name>indexer.indexwriters.file</name>
   <value>index-writers.xml</value>
   <description>The configuration file for index writers.</description>
@@ -1557,6 +1565,17 @@
 </property>
 
 <property>
+  <name>urlnormalizer.basic.host.idna2008</name>
+  <value>false</value>
+  <description>If true, let urlnormalizer-basic
+  normalize Internationalized Domain Names (IDNs) using the
+  standard IDNA2008 (RFC 5890). If false, use IDNA2003 (RFC 3490).
+  Note that urlnormalizer.basic.host.idn must be set, otherwise
+  this property has no effect.
+  </description>
+</property>
+
+<property>
   <name>urlnormalizer.basic.host.trim-trailing-dot</name>
   <value>false</value>
   <description>urlnormalizer-basic: Trim a trailing dot in host names:
@@ -1606,7 +1625,10 @@
   <value>plugins</value>
   <description>Directories where Nutch plugins are located.  Each
   element may be a relative or absolute path.  If absolute, it is used
-  as is.  If relative, it is searched for on the classpath.</description>
+  as is.  If relative, it is searched for on the classpath.
+  For secure deployments, treat these directories as trusted code: use
+  read-only filesystem permissions or immutable images so untrusted
+  parties cannot add or replace plugin JARs or plugin.xml files.</description>
 </property>
 
 <property>
@@ -1791,6 +1813,15 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
   <value>true</value>
   <description>Boolean value for whether we should skip parsing for truncated documents. By default this
   property is activated due to extremely high levels of CPU which parsing can sometimes take.
+  </description>
+</property>
+
+<property>
+  <name>parser.delete.failed.parse</name>
+  <value>false</value>
+  <description>Boolean value for whether we should delete a page from the index when parsing the page fails.
+  By default this property is deactivated, because it will delete an existing page from the index, where a
+  previous fetch produced content that was successfully parsed.
   </description>
 </property>
 
@@ -2146,6 +2177,19 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
     each property value is always an array of Strings (so if you expect one value, use [0])
   * doc - contains all the NutchFields from the NutchDocument.
     each property value is always an array of Objects.
+  Expressions are evaluated in a sandboxed JEXL engine (see also
+  nutch.jexl.disable.sandbox).
+  </description>
+</property>
+
+<property>
+  <name>nutch.jexl.disable.sandbox</name>
+  <value>false</value>
+  <description>If true, disables the Commons JEXL sandbox and the restriction
+  on the JEXL "new" operator for all Nutch JEXL expressions (index filter,
+  generator, hostdb filter, crawl_db_reader, exchange-jexl, etc.). This is
+  unsafe and should only be used in fully trusted environments when a
+  legitimate expression cannot be expressed under the default sandbox.
   </description>
 </property>
 
@@ -2231,33 +2275,98 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
 </property>
 
 <!-- index-geoip plugin properties -->
+<!--
+  To use the index-geoip plugin, you must set 'store.ip.address' to true.
+
+  Configure one or more GeoIP databases by setting the corresponding property below.
+  Each database type can be enabled independently - set any combination you need.
+  Database files must be in MMDB format and available on the Hadoop classpath
+  (e.g., place them in $NUTCH_HOME/conf).
+
+  More information: https://support.maxmind.com/knowledge-base/articles/maxmind-database-formats
+-->
+
 <property>
-  <name>index.geoip.usage</name>
-  <value>insightsService</value>
+  <name>index.geoip.db.anonymous</name>
+  <value></value>
   <description>
-  A string representing the information source to be used for GeoIP information
-  association. Either enter 'cityDatabase', 'connectionTypeDatabase',
-  'domainDatabase', 'ispDatabase' or 'insightsService'. If you wish to use any one of the
-  Database options, you should make one of GeoIP2-City.mmdb, GeoIP2-Connection-Type.mmdb,
-  GeoIP2-Domain.mmdb or GeoIP2-ISP.mmdb files respectively available on the classpath and
-  available at runtime. Alternatively, also the GeoLite2 IP databases (GeoLite2-*.mmdb)
-  can be used.
+  GeoIP2 Anonymous IP database file (MMDB format).
+  Identifies anonymous proxies, VPNs, Tor exit nodes, and hosting providers.
   </description>
 </property>
 
 <property>
-  <name>index.geoip.userid</name>
+  <name>index.geoip.db.asn</name>
   <value></value>
   <description>
-  The userId associated with the GeoIP2 Precision Services account.
+  GeoIP2/GeoLite2 ASN database file (MMDB format).
+  Provides autonomous system number and organization information.
   </description>
 </property>
 
 <property>
-  <name>index.geoip.licensekey</name>
+  <name>index.geoip.db.city</name>
   <value></value>
   <description>
-  The license key associated with the GeoIP2 Precision Services account.
+  GeoIP2/GeoLite2 City database file (MMDB format).
+  Provides city, subdivision, country, continent, and location data.
+  </description>
+</property>
+
+<property>
+  <name>index.geoip.db.connection</name>
+  <value></value>
+  <description>
+  GeoIP2 Connection Type database file (MMDB format).
+  Identifies connection type: Cable/DSL, Cellular, Corporate, or Satellite.
+  </description>
+</property>
+
+<property>
+  <name>index.geoip.db.country</name>
+  <value></value>
+  <description>
+  GeoIP2/GeoLite2 Country database file (MMDB format).
+  Provides country, continent, and represented country information.
+  This is a lighter-weight alternative to the City database when only
+  country-level information is needed.
+  </description>
+</property>
+
+<property>
+  <name>index.geoip.db.domain</name>
+  <value></value>
+  <description>
+  GeoIP2 Domain database file (MMDB format).
+  Provides the second-level domain associated with the IP address.
+  </description>
+</property>
+
+<property>
+  <name>index.geoip.db.isp</name>
+  <value></value>
+  <description>
+  GeoIP2 ISP database file (MMDB format).
+  Provides ISP, organization, and autonomous system information.
+  </description>
+</property>
+
+<!-- MaxMind Insights Web Service (alternative to local databases) -->
+<property>
+  <name>index.geoip.insights.userid</name>
+  <value></value>
+  <description>
+  The userId for the MaxMind GeoIP2 Precision Insights web service.
+  If set along with licensekey, the Insights service will be queried in addition
+  to any configured local databases.
+  </description>
+</property>
+
+<property>
+  <name>index.geoip.insights.licensekey</name>
+  <value></value>
+  <description>
+  The license key for the MaxMind GeoIP2 Precision Insights web service.
   </description>
 </property>
 
@@ -2316,7 +2425,7 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
   <value></value>
   <description>The values (as strings) to pass into the POJO constructor.
     The POJO must accept a String representation of the NutchDocument's URL
-    as the first parameter in the constructor. The values you specify here 
+    as the first parameter in the constructor. The values you specify here
     will populate the constructor arguments 1,..,n-1 where n=the count of
     arguments to the constructor. Argument #0 will be the NutchDocument's URL.
   </description>
@@ -2426,7 +2535,7 @@ CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this
 <property>
   <name>link.delete.gone</name>
   <value>false</value>
-  <description>Whether to delete gone pages from the web graph.</description>
+  <description>Whether to delete gone pages from the web graph. Gone pages include redirects and duplicates.</description>
 </property>
 
 <property>
@@ -2902,9 +3011,10 @@ one publisher implementation for RabbitMQ (plugin publish-rabbitmq).
 
 <property>
   <name>rabbitmq.publisher.server.uri</name>
-  <value>amqp://guest:guest@localhost:5672/</value>
+  <value>amqp://localhost:5672/</value>
   <description>
     URI with connection parameters in the form
+    amqp://hostname:port/virtualHost or
     amqp://username:password@hostname:port/virtualHost
     where:
     username is the username for RabbitMQ server.
@@ -2912,6 +3022,8 @@ one publisher implementation for RabbitMQ (plugin publish-rabbitmq).
     hostname is where the RabbitMQ server is running.
     port is where the RabbitMQ server is listening.
     virtualHost is where where the exchange is and the user has access.
+    A typical local RabbitMQ broker uses the well-known guest/guest
+    account; include username:password@ in the URI when required.
   </description>
 </property>
 

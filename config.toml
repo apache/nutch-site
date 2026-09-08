@@ -17,7 +17,7 @@ unsafe = true # allow raw HTML in markdown content
   github = "https://github.com/apache/nutch"
   twitter = "@ApacheNutch"
   email = "dev@nutch.apache.org"
-  nutchVersion = "1.22"
+  nutchVersion = "1.23"
 
 [[menu.main]]
     name = "Community"

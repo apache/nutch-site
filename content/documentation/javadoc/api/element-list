@@ -81,11 +81,6 @@ org.apache.nutch.scoring.similarity.util
 org.apache.nutch.scoring.urlmeta
 org.apache.nutch.scoring.webgraph
 org.apache.nutch.segment
-org.apache.nutch.service
-org.apache.nutch.service.impl
-org.apache.nutch.service.model.request
-org.apache.nutch.service.model.response
-org.apache.nutch.service.resources
 org.apache.nutch.tools
 org.apache.nutch.tools.arc
 org.apache.nutch.tools.warc
