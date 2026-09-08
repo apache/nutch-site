@@ -12,21 +12,21 @@
       <link>/development/ci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/development/ci/</guid>
-      <description>Nutch uses a combination of Jenkins and GitHub Actions for CI.</description>
+      <description>&lt;p&gt;Nutch uses a combination of &lt;a href=&#34;https://ci-builds.apache.org/job/Nutch/job/Nutch-trunk/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Jenkins&lt;/a&gt; and &lt;a href=&#34;https://github.com/apache/nutch/actions&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;GitHub Actions&lt;/a&gt; for CI.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Issue Tracker</title>
       <link>/development/issue-tracker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/development/issue-tracker/</guid>
-      <description>See https://issues.apache.org/jira/projects/NUTCH/issues</description>
+      <description>&lt;p&gt;See &lt;a href=&#34;https://issues.apache.org/jira/projects/NUTCH/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://issues.apache.org/jira/projects/NUTCH/issues&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Source Code Management</title>
       <link>/development/source-code-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/development/source-code-management/</guid>
-      <description>See https://cwiki.apache.org/confluence/display/NUTCH/UsingGit</description>
+      <description>&lt;p&gt;See &lt;a href=&#34;https://cwiki.apache.org/confluence/display/NUTCH/UsingGit&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://cwiki.apache.org/confluence/display/NUTCH/UsingGit&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

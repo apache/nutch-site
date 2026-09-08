@@ -13,14 +13,14 @@
       <link>/news/wicket-webapp-gsoc/</link>
       <pubDate>Mon, 22 Sep 2014 00:00:00 +0000</pubDate>
       <guid>/news/wicket-webapp-gsoc/</guid>
-      <description>After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.X branch now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This not only greatly lowers the barrier for direct interaction with the Nutch 2.X REST API but also provides a stepping stone from which we intend to backport this work to the Nutch 1.X (trunk) series.&#xA;Some of the Web Application features include:</description>
+      <description>&lt;p&gt;After successful completion of the first &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-841&#34;&gt;Nutch Google Summer of Code project&lt;/a&gt;&#xA;we are pleased to announce that Nutch 2.X branch now comes packaged with a self&#xA;contained &lt;a href=&#34;https://wicket.apache.org/&#34;&gt;Apache Wicket&lt;/a&gt;-based Web Application.&lt;/p&gt;&#xA;&lt;p&gt;This not only greatly lowers the barrier for direct interaction with the Nutch 2.X&#xA;REST API but also provides a stepping stone from which we intend to backport this&#xA;work to the Nutch 1.X (trunk) series.&lt;/p&gt;&#xA;&lt;p&gt;Some of the Web Application features include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch Participates in Google Summer of Code</title>
       <link>/news/nutch-gsoc-2014/</link>
       <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
       <guid>/news/nutch-gsoc-2014/</guid>
-      <description>For the first time in Nutch project history, we are participating as part of Apache&amp;rsquo;s mentoring efforts in the ever popular Google Summer of Code program. This years project involves the creation of a Apache Wicket-based Web Application for Nutch 2.X branch.&#xA;Keep your eyes peeled and check here for updates as the project progresses throughout the summer.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://summerofcode.withgoogle.com/assets/media/logo.svg&#34; alt=&#34;GSoC Logo&#34; title=&#34;Google Summer of Code Logo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;For the first time in Nutch project history, we are participating as part of Apache&amp;rsquo;s mentoring efforts in the ever popular &lt;a href=&#34;https://www.google-melange.com/gsoc/homepage/google/gsoc2014&#34;&gt;Google Summer of Code&lt;/a&gt; program. This years project involves the &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-841&#34;&gt;creation of a Apache Wicket-based Web Application&lt;/a&gt; for Nutch 2.X branch.&lt;/p&gt;&#xA;&lt;p&gt;Keep your eyes peeled and check here for updates as the project progresses throughout the summer.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

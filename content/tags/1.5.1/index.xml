@@ -13,7 +13,7 @@
       <link>/news/nutch-1.5.1-release/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.5.1-release/</guid>
-      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v1.5.1. This release is a maintainence release of the popular 1.5.X mainstream version of Nutch which has been widely adopted within the community. Please see the list of changes made in this version for a full breakdown. The release is available here.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v1.5.1. This release is a maintainence release of the popular 1.5.X mainstream version of Nutch which has been widely adopted within the community. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.5.1/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>/news/nutch-dev-focus-1.x/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
       <guid>/news/nutch-dev-focus-1.x/</guid>
-      <description>After some discussion and a vote about the issue, the Nutch development community decided to focus their efforts on maintaining and releasing the 1.x series of Nutch, and to branch the now former Nutch trunk based on Gora, allowing others to try and improve it, while the mainline development goes on.</description>
+      <description>&lt;p&gt;After some &lt;a href=&#34;http://www.mail-archive.com/dev@nutch.apache.org/msg03581.html&#34;&gt;discussion&lt;/a&gt; and a &lt;a href=&#34;http://www.mail-archive.com/dev@nutch.apache.org/msg04348.html&#34;&gt;vote&lt;/a&gt; about the issue, the Nutch development community decided to focus their efforts on maintaining and releasing the 1.x series of Nutch, and to branch the now former Nutch trunk based on Gora, allowing others to try and improve it, while the mainline development goes on.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

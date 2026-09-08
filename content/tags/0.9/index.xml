@@ -13,7 +13,7 @@
       <link>/news/nutch-0.9-release/</link>
       <pubDate>Mon, 02 Apr 2007 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.9-release/</guid>
-      <description>The 0.9 release of Nutch is now available. This is the second release of Nutch based entirely on the underlying Hadoop platform. This release includes several critical bug fixes, as well as key speedups described in more detail at Sami Siren&amp;rsquo;s blog. See list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 0.9 release of Nutch is now available. This is the second release of Nutch based entirely on the underlying Hadoop platform. This release includes several critical bug fixes, as well as key speedups described in more detail at &lt;a href=&#34;http://blog.foofactory.fi/2007/03/twice-speed-half-size.html&#34;&gt;Sami Siren&amp;rsquo;s blog&lt;/a&gt;. See &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-0.9.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

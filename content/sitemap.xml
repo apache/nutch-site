@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nutch.apache.org/news/nutch-1.23-release/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://nutch.apache.org/news/nutch-1.22-release/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -266,15 +270,35 @@
     <loc>https://nutch.apache.org/documentation/wiki/</loc>
   </url>
   <url>
-    <loc>https://nutch.apache.org/tags/1.22/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
+    <loc>https://nutch.apache.org/tags/1.23/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://nutch.apache.org/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://nutch.apache.org/categories/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nutch.apache.org/news/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nutch.apache.org/tags/release/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nutch.apache.org/categories/releases/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nutch.apache.org/tags/</loc>
+    <lastmod>2026-09-08T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nutch.apache.org/tags/1.22/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -283,22 +307,6 @@
   </url>
   <url>
     <loc>https://nutch.apache.org/categories/news/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nutch.apache.org/news/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nutch.apache.org/tags/release/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nutch.apache.org/categories/releases/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nutch.apache.org/tags/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url>
   <url>

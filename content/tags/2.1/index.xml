@@ -13,7 +13,7 @@
       <link>/news/nutch-2.1-release/</link>
       <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.1-release/</guid>
-      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.1. This release continues to provide Nutch users with a simplified Nutch distribution building on the 2.x development drive which is growing in popularity amongst the community. As well as addressing ~20 bugs this release also offers improved properties for better Solr configuration, upgrades to various Gora dependencies and the introduction of the option to build indexes in elastic search.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.1. This release continues to provide Nutch users with a simplified Nutch distribution building on the 2.x development drive which is growing in popularity amongst the community. As well as addressing ~20 bugs this release also offers improved properties for better &lt;a href=&#34;http://lucene.apache.org/solr/&#34;&gt;Solr&lt;/a&gt; configuration, upgrades to various &lt;a href=&#34;https://gora.apache.org/&#34;&gt;Gora&lt;/a&gt; dependencies and the introduction of the option to build indexes in &lt;a href=&#34;http://www.elasticsearch.org/&#34;&gt;elastic search&lt;/a&gt;. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/2.1/CHANGES-2.1.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

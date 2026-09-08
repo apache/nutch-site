@@ -13,7 +13,7 @@
       <link>/news/nutch-0.7.2-release/</link>
       <pubDate>Fri, 31 Mar 2006 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.7.2-release/</guid>
-      <description>The 0.7.2 release of Nutch is now available. This is a bug fix release for 0.7 branch. See CHANGES.txt for details. The release is available here.</description>
+      <description>&lt;p&gt;The 0.7.2 release of Nutch is now available. This is a bug fix release for 0.7 branch. See &lt;a href=&#34;http://svn.apache.org/viewcvs.cgi/nutch/branches/branch-0.7/CHANGES.txt?rev=390158&#34;&gt;CHANGES.txt&lt;/a&gt; for details. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,7 +13,7 @@
       <link>/news/nutch-1.16-release/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.16-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.16, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.16, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12343430&#34;&gt;release report&lt;/a&gt;.&#xA;Breaking changes are listed in the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.16/CHANGES.txt&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.16&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
