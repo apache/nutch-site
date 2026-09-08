@@ -13,7 +13,7 @@
       <link>/news/nutch-1.9-release/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.9-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.9, we advise all current users and developers of the 1.X series to upgrade to this release. This release addressed no fewer than 55 issues in total. Please see the list of changes for a full breakdown, or see the release report. As usual in the 1.X series, this release is made available both as source and binary.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.9, we advise all current users and developers of the 1.X series to upgrade to this release. This release addressed no fewer than 55 issues in total. Please see the &lt;a href=&#34;https://www.apache.org/dist/nutch/1.9/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; for a full breakdown, or see the &lt;a href=&#34;https://s.apache.org/1.9-release&#34;&gt;release report&lt;/a&gt;. As usual in the 1.X series, this release is made available both as source and binary. Additionally developers can find Maven artifacts within &lt;a href=&#34;https://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;https://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

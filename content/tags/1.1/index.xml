@@ -13,7 +13,7 @@
       <link>/news/nutch-1.1-release/</link>
       <pubDate>Sun, 06 Jun 2010 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.1-release/</guid>
-      <description>The 1.1 release of Nutch is now available. This release includes several major upgrades of existing libraries (Hadoop, Solr, Tika, etc.) on which Nutch depends. Various bug fixes, and speedups (e.g., to Fetcher2) have also been included. See list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.1 release of Nutch is now available. This release includes several major upgrades of existing libraries (Hadoop, Solr, Tika, etc.) on which Nutch depends. Various bug fixes, and speedups (e.g., to Fetcher2) have also been included. See &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.1.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

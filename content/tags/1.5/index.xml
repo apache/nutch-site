@@ -13,7 +13,7 @@
       <link>/news/nutch-1.5-release/</link>
       <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.5-release/</guid>
-      <description>The 1.5 release of Nutch is now available. This release includes several improvements including upgrades of several major components including Tika 1.1 and Hadoop 1.0.0, improvements to LinkRank and WebGraph elements as well as a number of new plugins covering blacklisting, filering and parsing to name a few. Please see the list of changes made in this version for a full breakdown of the 50 odd improvements the release boasts. The release is available here.</description>
+      <description>&lt;p&gt;The 1.5 release of Nutch is now available. This release includes several improvements including upgrades of several major components including Tika 1.1 and Hadoop 1.0.0, improvements to LinkRank and WebGraph elements as well as a number of new plugins covering blacklisting, filering and parsing to name a few. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.5.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown of the 50 odd improvements the release boasts. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

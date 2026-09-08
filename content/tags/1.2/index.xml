@@ -13,7 +13,7 @@
       <link>/news/nutch-1.2-release/</link>
       <pubDate>Fri, 24 Sep 2010 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.2-release/</guid>
-      <description>The 1.2 release of Nutch is now available. This release includes several improvements (addition of parse-html as a selectable parser again, configurable per-field indexing), new features (including adding timing information to all Tool classes, and implementation of parser timeouts), and bug fixes (fixing an NPE in distributed search, fixing of XML formatting issues per Document fields). Please see the list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.2 release of Nutch is now available. This release includes several improvements (addition of parse-html as a selectable parser again, configurable per-field indexing), new features (including adding timing information to all Tool classes, and implementation of parser timeouts), and bug fixes (fixing an NPE in distributed search, fixing of XML formatting issues per Document fields). Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.2.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

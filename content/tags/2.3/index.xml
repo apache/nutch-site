@@ -13,7 +13,7 @@
       <link>/news/nutch-2.3-release/</link>
       <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.3-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3, we advise all current users and developers of the 2.X series to upgrade to this release. After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.3 release now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This release is the result of many months of work and 143 issues addressed.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3, we advise all&#xA;current users and developers of the 2.X series to upgrade to this release.&#xA;After successful completion of the first &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-841&#34;&gt;Nutch Google Summer of Code project&lt;/a&gt;&#xA;we are pleased to announce that Nutch 2.3 release now comes packaged with a self&#xA;contained &lt;a href=&#34;https://wicket.apache.org/&#34;&gt;Apache Wicket&lt;/a&gt;-based Web Application.&lt;/p&gt;&#xA;&lt;p&gt;This release is the result of many months of work and 143 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch_2.3&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,266 +6,273 @@
     <description>Recent content in Releases on Apache Nutch™</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/releases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nutch 1.23 Release</title>
+      <link>/news/nutch-1.23-release/</link>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>/news/nutch-1.23-release/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://projects.apache.org/committee.html?nutch&#34; target=&#34;_blank&#34;&gt;Apache Nutch PMC&lt;/a&gt; are pleased to announce the immediate release of &lt;strong&gt;Apache Nutch v1.23&lt;/strong&gt;, we advise all current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;div id=&#34;action-buttons&#34;&gt;&#xA;  &lt;a class=&#34;button primary big&#34; href=&#34;/download&#34; onclick=&#34;_gaq.push([&#39;_trackEvent&#39;, &#39;kube&#39;, &#39;download&#39;]);&#34;&gt;Download Nutch 1.22&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;You may also be interested in the &lt;a href=&#34;https://s.apache.org/c4qjb&#34; target=&#34;_blank&#34;&gt;1.23 release report&lt;/a&gt; and the breaking changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nutch requires JDK 17 at build and runtime.&lt;/li&gt;&#xA;&lt;li&gt;The minimum required Hadoop version is 3.5.0 if Nutch is run on a Hadoop cluster.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-1732&#34;&gt;NUTCH-1732&lt;/a&gt; introduced a new CrawlDatum status,&#xA;&lt;code&gt;db_parse_failed&lt;/code&gt;. A CrawlDb written with Nutch 1.23 might fail to be read with older Nutch versions,&#xA;if it contains records with status &lt;code&gt;db_parse_failed&lt;/code&gt;. As the name indicates, the status marks&#xA;documents which failed to parse. It is only set if the property &lt;code&gt;parser.delete.failed.parse&lt;/code&gt; is&#xA;&lt;code&gt;true&lt;/code&gt; (default: &lt;code&gt;false&lt;/code&gt;). If your workflow requires that Nutch data can be read with Nutch 1.22&#xA;(or older), please keep the property set to &lt;code&gt;false&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;In the 1.X series, release artifacts are made available as both source and binary and also available within &lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.23&#34; target=&#34;_blank&#34;&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Nutch 1.22 Release</title>
       <link>/news/nutch-1.22-release/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.22-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.22, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;Download Nutch 1.22 You may also be interested in the 1.22 release report.&#xA;In the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://projects.apache.org/committee.html?nutch&#34; target=&#34;_blank&#34;&gt;Apache Nutch PMC&lt;/a&gt; are pleased to announce the immediate release of &lt;strong&gt;Apache Nutch v1.22&lt;/strong&gt;, we advise all current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;div id=&#34;action-buttons&#34;&gt;&#xA;  &lt;a class=&#34;button primary big&#34; href=&#34;/download&#34; onclick=&#34;_gaq.push([&#39;_trackEvent&#39;, &#39;kube&#39;, &#39;download&#39;]);&#34;&gt;Download Nutch 1.22&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;You may also be interested in the &lt;a href=&#34;https://s.apache.org/1ip89&#34; target=&#34;_blank&#34;&gt;1.22 release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In the 1.X series, release artifacts are made available as both source and binary and also available within &lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.22&#34; target=&#34;_blank&#34;&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.21 Release</title>
       <link>/news/nutch-1.21-release/</link>
       <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.21-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.21, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;Download Nutch 1.21 You may also be interested in the 1.21 release report.&#xA;In the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://projects.apache.org/committee.html?nutch&#34; target=&#34;_blank&#34;&gt;Apache Nutch PMC&lt;/a&gt; are pleased to announce the immediate release of &lt;strong&gt;Apache Nutch v1.21&lt;/strong&gt;, we advise all current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;div id=&#34;action-buttons&#34;&gt;&#xA;  &lt;a class=&#34;button primary big&#34; href=&#34;/download&#34; onclick=&#34;_gaq.push([&#39;_trackEvent&#39;, &#39;kube&#39;, &#39;download&#39;]);&#34;&gt;Download Nutch 1.21&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;You may also be interested in the &lt;a href=&#34;https://s.apache.org/bs58y&#34; target=&#34;_blank&#34;&gt;1.21 release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In the 1.X series, release artifacts are made available as both source and binary and also available within &lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.21&#34; target=&#34;_blank&#34;&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.20 Release</title>
       <link>/news/nutch-1.20-release/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.20-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.20, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;Download Nutch 1.20 You may also be interested in the 1.20 release report.&#xA;In the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central.</description>
+      <description>&lt;p&gt;The &lt;a href=&#34;https://projects.apache.org/committee.html?nutch&#34; target=&#34;_blank&#34;&gt;Apache Nutch PMC&lt;/a&gt; are pleased to announce the immediate release of &lt;strong&gt;Apache Nutch v1.20&lt;/strong&gt;, we advise all current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;div id=&#34;action-buttons&#34;&gt;&#xA;  &lt;a class=&#34;button primary big&#34; href=&#34;/download&#34; onclick=&#34;_gaq.push([&#39;_trackEvent&#39;, &#39;kube&#39;, &#39;download&#39;]);&#34;&gt;Download Nutch 1.20&lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;You may also be interested in the &lt;a href=&#34;https://s.apache.org/lf6li&#34; target=&#34;_blank&#34;&gt;1.20 release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In the 1.X series, release artifacts are made available as both source and binary and also available within &lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.20&#34; target=&#34;_blank&#34;&gt;Maven Central&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.19 Release</title>
       <link>/news/nutch-1.19-release/</link>
       <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.19-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.19, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.19, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://s.apache.org/lf6li&#34;&gt;release report&lt;/a&gt;.&#xA;Breaking changes are listed in the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.19/CHANGES.txt&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.19&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.18 Release</title>
       <link>/news/nutch-1.18-release/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.18-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.18, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.18, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://s.apache.org/lqara&#34;&gt;release report&lt;/a&gt;.&#xA;Breaking changes are listed in the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.18/CHANGES.txt&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.18&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.17 Release</title>
       <link>/news/nutch-1.17-release/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.17-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.17, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.17, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12346090&#34;&gt;release report&lt;/a&gt;.&#xA;Breaking changes are listed in the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.17/CHANGES.txt&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.17&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.16 Release</title>
       <link>/news/nutch-1.16-release/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.16-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.16, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report. Breaking changes are listed in the changelog.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.16, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12343430&#34;&gt;release report&lt;/a&gt;.&#xA;Breaking changes are listed in the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.16/CHANGES.txt&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:1.16&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 2.4 Release</title>
       <link>/news/nutch-2.4-release/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.4-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.4, we advise all current users and developers of the 2.X series to upgrade to this release.&#xA;This release contains 81 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 2.X series, release artifacts are made available as only source and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.4, we advise all&#xA;current users and developers of the 2.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;This release contains 81 issues addressed. For a complete overview of these&#xA;issues please see the &lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12324540&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 2.X series, release artifacts are made available as only source and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch%20AND%20v:2.4&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;downloads page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.15 Release</title>
       <link>/news/nutch-1.15-release/</link>
       <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.15-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.15, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.15, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12342302&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.14 Release</title>
       <link>/news/nutch-1.14-release/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.14-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.14, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.14, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12340218&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.13 Release</title>
       <link>/news/nutch-1.13-release/</link>
       <pubDate>Sun, 02 Apr 2017 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.13-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.13, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;An account of the CHANGES in this release can be seen in the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.13, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;An account of the CHANGES in this release can be seen in the&#xA;&lt;a href=&#34;https://s.apache.org/wq3x&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.12 Release</title>
       <link>/news/nutch-1.12-release/</link>
       <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.12-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.12, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and over 40 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.12, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;This release is the result of many months of work and over 40 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch1.12&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 2.3.1 Release</title>
       <link>/news/nutch-2.3.1-release/</link>
       <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.3.1-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3.1, we advise all current users and developers of the 2.X series to upgrade to this release.&#xA;This bug fix release contains around 40 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 2.X series, release artifacts are made available as only source and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3.1, we advise all&#xA;current users and developers of the 2.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;This bug fix release contains around 40 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch_2.3.1&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 2.X series, release artifacts are made available as only source and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.11 Release</title>
       <link>/news/nutch-1.11-release/</link>
       <pubDate>Mon, 07 Dec 2015 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.11-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.11, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and around 100 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.11, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;This release is the result of many months of work and around 100 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch11&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 1.10 Release</title>
       <link>/news/nutch-1.10-release/</link>
       <pubDate>Wed, 06 May 2015 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.10-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.10, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and well over 100 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.10, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;This release is the result of many months of work and well over 100 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch10&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 2.3 Release</title>
       <link>/news/nutch-2.3-release/</link>
       <pubDate>Thu, 22 Jan 2015 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.3-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3, we advise all current users and developers of the 2.X series to upgrade to this release. After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.3 release now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This release is the result of many months of work and 143 issues addressed.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.3, we advise all&#xA;current users and developers of the 2.X series to upgrade to this release.&#xA;After successful completion of the first &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-841&#34;&gt;Nutch Google Summer of Code project&lt;/a&gt;&#xA;we are pleased to announce that Nutch 2.3 release now comes packaged with a self&#xA;contained &lt;a href=&#34;https://wicket.apache.org/&#34;&gt;Apache Wicket&lt;/a&gt;-based Web Application.&lt;/p&gt;&#xA;&lt;p&gt;This release is the result of many months of work and 143 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch_2.3&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v1.9 Released</title>
       <link>/news/nutch-1.9-release/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.9-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.9, we advise all current users and developers of the 1.X series to upgrade to this release. This release addressed no fewer than 55 issues in total. Please see the list of changes for a full breakdown, or see the release report. As usual in the 1.X series, this release is made available both as source and binary.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.9, we advise all current users and developers of the 1.X series to upgrade to this release. This release addressed no fewer than 55 issues in total. Please see the &lt;a href=&#34;https://www.apache.org/dist/nutch/1.9/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; for a full breakdown, or see the &lt;a href=&#34;https://s.apache.org/1.9-release&#34;&gt;release report&lt;/a&gt;. As usual in the 1.X series, this release is made available both as source and binary. Additionally developers can find Maven artifacts within &lt;a href=&#34;https://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;https://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v1.8 Released</title>
       <link>/news/nutch-1.8-release/</link>
       <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.8-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.8, we advise all current users and developers of the 1.X series to upgrade to this release. Alhough this release includes library upgrades to Crawler Commons 0.3 and Apache Tika 1.5, it also provides over 30 bug fixes as well as 18 improvements. Please see the list of changes for a full breakdown, or see the release report.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.8, we advise all current users and developers of the 1.X series to upgrade to this release. Alhough this release includes library upgrades to &lt;a href=&#34;http://code.google.com/p/crawler-commons/&#34;&gt;Crawler Commons&lt;/a&gt; 0.3 and &lt;a href=&#34;https://tika.apache.org/&#34;&gt;Apache Tika&lt;/a&gt; 1.5, it also provides over 30 bug fixes as well as 18 improvements. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.8/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; for a full breakdown, or see the &lt;a href=&#34;http://s.apache.org/oHY&#34;&gt;release report&lt;/a&gt;. As usual in the 1.X series, this release is made available both as source and binary. Additionally developers can find Maven artifacts within &lt;a href=&#34;http://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v2.2.1 Released</title>
       <link>/news/nutch-2.2.1-release/</link>
       <pubDate>Tue, 02 Jul 2013 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.2.1-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.2.1, we advise all current users and developers of the 2.X series to upgrade to this release ASAP. Although this release includes library upgrades to Apache Hadoop 1.2.0 and Apache Tika 1.3, it is predominantly a bug fix for NUTCH-1591 - Incorrect conversion of ByteBuffer to String. Please see the list of changes for a full breakdown, or see the release report.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v2.2.1, we advise all current users and developers of the 2.X series to upgrade to this release ASAP. Although this release includes library upgrades to &lt;a href=&#34;https://hadoop.apache.org/&#34;&gt;Apache Hadoop&lt;/a&gt; 1.2.0 and &lt;a href=&#34;https://tika.apache.org/&#34;&gt;Apache Tika&lt;/a&gt; 1.3, it is predominantly a bug fix for &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-1591&#34;&gt;NUTCH-1591 - Incorrect conversion of ByteBuffer to String&lt;/a&gt;. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/2.2.1/CHANGES-2.2.1.txt&#34;&gt;list of changes&lt;/a&gt; for a full breakdown, or see the &lt;a href=&#34;http://s.apache.org/PGa&#34;&gt;release report&lt;/a&gt;. As usual in the 2.x series, this release is made available only as source, but is also available within &lt;a href=&#34;http://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v1.7 Released</title>
       <link>/news/nutch-1.7-release/</link>
       <pubDate>Mon, 24 Jun 2013 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.7-release/</guid>
-      <description>The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v1.7. This release includes over 20 bug fixes, as many improvements; most noticeably featuring a new pluggable indexing architecture which currently supports Apache Solr and Elastic Search. Shadowing the recent Nutch 2.2 release, parsing of Robots.txt is now delegated to Crawler-Commons. Key library upgrades have been made to Apache Hadoop 1.2.0 and Apache Tika 1.3. Please see the list of changes or the release report made in this version for a full breakdown.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v1.7. This release includes over 20 bug fixes, as many improvements; most noticeably featuring a new &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-1047&#34;&gt;pluggable indexing architecture&lt;/a&gt; which currently supports &lt;a href=&#34;http://lucene.apache.org/solr&#34;&gt;Apache Solr&lt;/a&gt; and &lt;a href=&#34;http://www.elasticsearch.org/&#34;&gt;Elastic Search&lt;/a&gt;. Shadowing the recent Nutch 2.2 release, parsing of Robots.txt is now delegated to &lt;a href=&#34;http://code.google.com/p/crawler-commons/&#34;&gt;Crawler-Commons&lt;/a&gt;. Key library upgrades have been made to &lt;a href=&#34;https://hadoop.apache.org/&#34;&gt;Apache Hadoop&lt;/a&gt; 1.2.0 and &lt;a href=&#34;https://tika.apache.org/&#34;&gt;Apache Tika&lt;/a&gt; 1.3. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.7/1.7-CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; or the &lt;a href=&#34;http://s.apache.org/1zE&#34;&gt;release report&lt;/a&gt; made in this version for a full breakdown. As usual in the 1.x series, the release is made available as binary and source (zip + tar.gz) and is also available within &lt;a href=&#34;http://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v2.2 Released</title>
       <link>/news/nutch-2.2-release/</link>
       <pubDate>Sat, 08 Jun 2013 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.2-release/</guid>
-      <description>The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v2.2. This release includes over 30 bug fixes and over 25 improvements representing the third release of increasingly popular 2.x Nutch series. This release features inclusion of Crawler-Commons which Nutch now utilizes for improved robots.txt parsing, library upgrades to Apache Hadoop 1.1.1, Apache Gora 0.3, Apache Tika 1.2 and Automaton 1.11-8. Please see the list of changes or the release report made in this version for a full breakdown.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are extremely pleased to announce the immediate release of Apache Nutch v2.2. This release includes over 30 bug fixes and over 25 improvements representing the third release of increasingly popular 2.x Nutch series. This release features inclusion of &lt;a href=&#34;http://code.google.com/p/crawler-commons/&#34;&gt;Crawler-Commons&lt;/a&gt; which Nutch now utilizes for improved robots.txt parsing, library upgrades to &lt;a href=&#34;https://hadoop.apache.org/&#34;&gt;Apache Hadoop&lt;/a&gt; 1.1.1, &lt;a href=&#34;https://gora.apache.org/&#34;&gt;Apache Gora&lt;/a&gt; 0.3, &lt;a href=&#34;https://tika.apache.org/&#34;&gt;Apache Tika&lt;/a&gt; 1.2 and &lt;a href=&#34;http://www.brics.dk/automaton/automaton&#34;&gt;Automaton&lt;/a&gt; 1.11-8. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/2.2/2.2-CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; or the &lt;a href=&#34;http://s.apache.org/LPB&#34;&gt;release report&lt;/a&gt; made in this version for a full breakdown. As usual in the 2.x series, this release is made available only as source, but is also available within &lt;a href=&#34;http://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v1.6 Released</title>
       <link>/news/nutch-1.6-release/</link>
       <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.6-release/</guid>
-      <description>The Apache Nutch PMC are extremely pleased to announce the release of Apache Nutch v1.6. This release includes over 20 bug fixes, the same in improvements, as well as new functionalities including a new HostNormalizer, the ability to dynamically set fetchInterval by MIME-type and functional enhancements to the Indexer API inluding the normalization of URL&amp;rsquo;s and the deletion of robots noIndex documents. Other notable improvements include the upgrade of key dependencies to Tika 1.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are extremely pleased to announce the release of Apache Nutch v1.6. This release includes over 20 bug fixes, the same in improvements, as well as new functionalities including a new HostNormalizer, the ability to dynamically set fetchInterval by MIME-type and functional enhancements to the Indexer API inluding the normalization of URL&amp;rsquo;s and the deletion of robots noIndex documents. Other notable improvements include the upgrade of key dependencies to &lt;a href=&#34;https://tika.apache.org/1.2/index.html&#34;&gt;Tika 1.2&lt;/a&gt; and &lt;a href=&#34;http://www.brics.dk/automaton/&#34;&gt;Automaton 1.11-8&lt;/a&gt;. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.6/CHANGES_1.6.txt&#34;&gt;list of changes&lt;/a&gt; or the &lt;a href=&#34;https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&amp;amp;version=12319941&#34;&gt;release report&lt;/a&gt; made in this version for a full breakdown. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v2.1 Released</title>
       <link>/news/nutch-2.1-release/</link>
       <pubDate>Fri, 05 Oct 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.1-release/</guid>
-      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.1. This release continues to provide Nutch users with a simplified Nutch distribution building on the 2.x development drive which is growing in popularity amongst the community. As well as addressing ~20 bugs this release also offers improved properties for better Solr configuration, upgrades to various Gora dependencies and the introduction of the option to build indexes in elastic search.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.1. This release continues to provide Nutch users with a simplified Nutch distribution building on the 2.x development drive which is growing in popularity amongst the community. As well as addressing ~20 bugs this release also offers improved properties for better &lt;a href=&#34;http://lucene.apache.org/solr/&#34;&gt;Solr&lt;/a&gt; configuration, upgrades to various &lt;a href=&#34;https://gora.apache.org/&#34;&gt;Gora&lt;/a&gt; dependencies and the introduction of the option to build indexes in &lt;a href=&#34;http://www.elasticsearch.org/&#34;&gt;elastic search&lt;/a&gt;. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/2.1/CHANGES-2.1.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v1.5.1 Released</title>
       <link>/news/nutch-1.5.1-release/</link>
       <pubDate>Tue, 10 Jul 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.5.1-release/</guid>
-      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v1.5.1. This release is a maintainence release of the popular 1.5.X mainstream version of Nutch which has been widely adopted within the community. Please see the list of changes made in this version for a full breakdown. The release is available here.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v1.5.1. This release is a maintainence release of the popular 1.5.X mainstream version of Nutch which has been widely adopted within the community. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.5.1/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch v2.0 Released</title>
       <link>/news/nutch-2.0-release/</link>
       <pubDate>Sat, 07 Jul 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-2.0-release/</guid>
-      <description>The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.0. This release offers users an edition focused on large scale crawling which builds on storage abstraction (via Apache Gora™) for big data stores such as Apache Accumulo™, Apache Avro™, Apache Cassandra™, Apache HBase™, HDFS™, an in memory data store and various high profile SQL stores. After some two years of development Nutch v2.0 also offers all of the mainstream Nutch functionality and it builds on Apache Solr™ adding web-specifics, such as a crawler, a link-graph database and parsing support handled by Apache Tika™ for HTML and an array other document formats.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are very pleased to announce the release of Apache Nutch v2.0. This release offers users an edition focused on large scale crawling which builds on storage abstraction (via Apache Gora™) for big data stores such as Apache Accumulo™, Apache Avro™, Apache Cassandra™, Apache HBase™, HDFS™, an in memory data store and various high profile SQL stores. After some two years of development Nutch v2.0 also offers all of the mainstream Nutch functionality and it builds on Apache Solr™ adding web-specifics, such as a crawler, a link-graph database and parsing support handled by Apache Tika™ for HTML and an array other document formats. Nutch v2.0 shadows the latest stable mainstream release (v1.5.X) based on Apache Hadoop™ and covers many use cases from small crawls on a single machine to large scale deployments on Hadoop clusters. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/2.0/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch 1.5 Released</title>
       <link>/news/nutch-1.5-release/</link>
       <pubDate>Thu, 07 Jun 2012 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.5-release/</guid>
-      <description>The 1.5 release of Nutch is now available. This release includes several improvements including upgrades of several major components including Tika 1.1 and Hadoop 1.0.0, improvements to LinkRank and WebGraph elements as well as a number of new plugins covering blacklisting, filering and parsing to name a few. Please see the list of changes made in this version for a full breakdown of the 50 odd improvements the release boasts. The release is available here.</description>
+      <description>&lt;p&gt;The 1.5 release of Nutch is now available. This release includes several improvements including upgrades of several major components including Tika 1.1 and Hadoop 1.0.0, improvements to LinkRank and WebGraph elements as well as a number of new plugins covering blacklisting, filering and parsing to name a few. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.5.txt&#34;&gt;list of changes&lt;/a&gt; made in this version for a full breakdown of the 50 odd improvements the release boasts. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch 1.4 Released</title>
       <link>/news/nutch-1.4-release/</link>
       <pubDate>Sat, 26 Nov 2011 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.4-release/</guid>
-      <description>The 1.4 release of Nutch is now available. This release includes several improvements including allowing Parsers to declare support for multiple MIME types, configurable Fetcher Queue depth, Fetcher speed improvements, tigther Tika integration, and support for HTTP auth in Solr indexing. Please see the list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.4 release of Nutch is now available. This release includes several improvements including allowing Parsers to declare support for multiple MIME types, configurable Fetcher Queue depth, Fetcher speed improvements, tigther Tika integration, and support for HTTP auth in Solr indexing. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.4.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch 1.3 Released</title>
       <link>/news/nutch-1.3-release/</link>
       <pubDate>Tue, 07 Jun 2011 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.3-release/</guid>
-      <description>The 1.3 release of Nutch is now available. This release includes several improvements (improved RSS parsing support, tighter integration with Apache Tika, external parsing support, improved language identification and an order of magnitude smaller source release tarball &amp;ndash; only about 2MB!). Please see the list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.3 release of Nutch is now available. This release includes several improvements (improved RSS parsing support, tighter integration with Apache Tika, external parsing support, improved language identification and an order of magnitude smaller source release tarball &amp;ndash; only about 2MB!). Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.3.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch 1.2 Released</title>
       <link>/news/nutch-1.2-release/</link>
       <pubDate>Fri, 24 Sep 2010 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.2-release/</guid>
-      <description>The 1.2 release of Nutch is now available. This release includes several improvements (addition of parse-html as a selectable parser again, configurable per-field indexing), new features (including adding timing information to all Tool classes, and implementation of parser timeouts), and bug fixes (fixing an NPE in distributed search, fixing of XML formatting issues per Document fields). Please see the list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.2 release of Nutch is now available. This release includes several improvements (addition of parse-html as a selectable parser again, configurable per-field indexing), new features (including adding timing information to all Tool classes, and implementation of parser timeouts), and bug fixes (fixing an NPE in distributed search, fixing of XML formatting issues per Document fields). Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.2.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch 1.1 Released</title>
       <link>/news/nutch-1.1-release/</link>
       <pubDate>Sun, 06 Jun 2010 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.1-release/</guid>
-      <description>The 1.1 release of Nutch is now available. This release includes several major upgrades of existing libraries (Hadoop, Solr, Tika, etc.) on which Nutch depends. Various bug fixes, and speedups (e.g., to Fetcher2) have also been included. See list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.1 release of Nutch is now available. This release includes several major upgrades of existing libraries (Hadoop, Solr, Tika, etc.) on which Nutch depends. Various bug fixes, and speedups (e.g., to Fetcher2) have also been included. See &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.1.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Nutch 1.0 Released</title>
       <link>/news/nutch-1.0-release/</link>
       <pubDate>Mon, 23 Mar 2009 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.0-release/</guid>
-      <description>The 1.0 release of Nutch is now available. This release includes several major feature improvements such as new indexing framework, new scoring framework, Apache Solr integration just to mention a few. See list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 1.0 release of Nutch is now available. This release includes several major feature improvements such as new indexing framework, new scoring framework, Apache Solr integration just to mention a few. See &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-1.0.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 0.9 Released</title>
       <link>/news/nutch-0.9-release/</link>
       <pubDate>Mon, 02 Apr 2007 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.9-release/</guid>
-      <description>The 0.9 release of Nutch is now available. This is the second release of Nutch based entirely on the underlying Hadoop platform. This release includes several critical bug fixes, as well as key speedups described in more detail at Sami Siren&amp;rsquo;s blog. See list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 0.9 release of Nutch is now available. This is the second release of Nutch based entirely on the underlying Hadoop platform. This release includes several critical bug fixes, as well as key speedups described in more detail at &lt;a href=&#34;http://blog.foofactory.fi/2007/03/twice-speed-half-size.html&#34;&gt;Sami Siren&amp;rsquo;s blog&lt;/a&gt;. See &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-0.9.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 0.8.1 Released</title>
       <link>/news/nutch-0.8.1-release/</link>
       <pubDate>Sun, 24 Sep 2006 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.8.1-release/</guid>
-      <description>The 0.8.1 release of Nutch is now available. This is a maintenance release to 0.8 branch fixing many serous bugs found in version 0.8. See list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 0.8.1 release of Nutch is now available. This is a maintenance release to 0.8 branch fixing many serous bugs found in version 0.8. See &lt;a href=&#34;https://archive.apache.org/dist/nutch/CHANGES-0.8.1.txt&#34;&gt;list of changes&lt;/a&gt; made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 0.8 Released</title>
       <link>/news/nutch-0.8-release/</link>
       <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.8-release/</guid>
-      <description>The 0.8 release of Nutch is now available. This is the first release of Nutch based on hadoop architecure. See CHANGES.txt for list of changes made in this version. The release is available here.</description>
+      <description>&lt;p&gt;The 0.8 release of Nutch is now available. This is the first release of Nutch based on hadoop architecure. See &lt;a href=&#34;http://svn.apache.org/viewvc/nutch/tags/release-0.8/CHANGES.txt?view=markup&#34;&gt;CHANGES.txt&lt;/a&gt; for list of changes made in this version. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 0.7.2 Released</title>
       <link>/news/nutch-0.7.2-release/</link>
       <pubDate>Fri, 31 Mar 2006 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.7.2-release/</guid>
-      <description>The 0.7.2 release of Nutch is now available. This is a bug fix release for 0.7 branch. See CHANGES.txt for details. The release is available here.</description>
+      <description>&lt;p&gt;The 0.7.2 release of Nutch is now available. This is a bug fix release for 0.7 branch. See &lt;a href=&#34;http://svn.apache.org/viewcvs.cgi/nutch/branches/branch-0.7/CHANGES.txt?rev=390158&#34;&gt;CHANGES.txt&lt;/a&gt; for details. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 0.7.1 Released</title>
       <link>/news/nutch-0.7.1-release/</link>
       <pubDate>Sat, 01 Oct 2005 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.7.1-release/</guid>
-      <description>The 0.7.1 release of Nutch is now available. This is a bug fix release. See CHANGES.txt for details. The release is available here.</description>
+      <description>&lt;p&gt;The 0.7.1 release of Nutch is now available. This is a bug fix release. See &lt;a href=&#34;http://svn.apache.org/viewcvs.cgi/nutch/branches/branch-0.7/CHANGES.txt?rev=292986&#34;&gt;CHANGES.txt&lt;/a&gt; for details. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nutch 0.7 Released</title>
       <link>/news/nutch-0.7-release/</link>
       <pubDate>Wed, 17 Aug 2005 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.7-release/</guid>
-      <description>This is the first Nutch release as an Apache Lucene sub-project. See CHANGES.txt for details. The release is available here.</description>
+      <description>&lt;p&gt;This is the first Nutch release as an Apache Lucene sub-project. See &lt;a href=&#34;http://svn.apache.org/viewcvs.cgi/nutch/trunk/CHANGES.txt?rev=233150&#34;&gt;CHANGES.txt&lt;/a&gt; for details. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

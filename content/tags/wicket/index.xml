@@ -13,7 +13,7 @@
       <link>/news/wicket-webapp-gsoc/</link>
       <pubDate>Mon, 22 Sep 2014 00:00:00 +0000</pubDate>
       <guid>/news/wicket-webapp-gsoc/</guid>
-      <description>After successful completion of the first Nutch Google Summer of Code project we are pleased to announce that Nutch 2.X branch now comes packaged with a self contained Apache Wicket-based Web Application.&#xA;This not only greatly lowers the barrier for direct interaction with the Nutch 2.X REST API but also provides a stepping stone from which we intend to backport this work to the Nutch 1.X (trunk) series.&#xA;Some of the Web Application features include:</description>
+      <description>&lt;p&gt;After successful completion of the first &lt;a href=&#34;https://issues.apache.org/jira/browse/NUTCH-841&#34;&gt;Nutch Google Summer of Code project&lt;/a&gt;&#xA;we are pleased to announce that Nutch 2.X branch now comes packaged with a self&#xA;contained &lt;a href=&#34;https://wicket.apache.org/&#34;&gt;Apache Wicket&lt;/a&gt;-based Web Application.&lt;/p&gt;&#xA;&lt;p&gt;This not only greatly lowers the barrier for direct interaction with the Nutch 2.X&#xA;REST API but also provides a stepping stone from which we intend to backport this&#xA;work to the Nutch 1.X (trunk) series.&lt;/p&gt;&#xA;&lt;p&gt;Some of the Web Application features include:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

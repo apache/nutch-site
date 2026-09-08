@@ -13,7 +13,7 @@
       <link>/news/nutch-1.8-release/</link>
       <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.8-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.8, we advise all current users and developers of the 1.X series to upgrade to this release. Alhough this release includes library upgrades to Crawler Commons 0.3 and Apache Tika 1.5, it also provides over 30 bug fixes as well as 18 improvements. Please see the list of changes for a full breakdown, or see the release report.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.8, we advise all current users and developers of the 1.X series to upgrade to this release. Alhough this release includes library upgrades to &lt;a href=&#34;http://code.google.com/p/crawler-commons/&#34;&gt;Crawler Commons&lt;/a&gt; 0.3 and &lt;a href=&#34;https://tika.apache.org/&#34;&gt;Apache Tika&lt;/a&gt; 1.5, it also provides over 30 bug fixes as well as 18 improvements. Please see the &lt;a href=&#34;https://archive.apache.org/dist/nutch/1.8/CHANGES.txt&#34;&gt;list of changes&lt;/a&gt; for a full breakdown, or see the &lt;a href=&#34;http://s.apache.org/oHY&#34;&gt;release report&lt;/a&gt;. As usual in the 1.X series, this release is made available both as source and binary. Additionally developers can find Maven artifacts within &lt;a href=&#34;http://search.maven.org/&#34;&gt;Maven Central&lt;/a&gt;. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

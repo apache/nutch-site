@@ -13,7 +13,7 @@
       <link>/news/upgrade-to-jdk17/</link>
       <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
       <guid>/news/upgrade-to-jdk17/</guid>
-      <description>Nutch v1.22 will be the last version to run on Java 11.&#xA;Starting with the development of version 1.23 we will migrate to Java 17. To run or compile Nutch, a Java 17 runtime (JRE) and JDK will then be required.&#xA;See also the discussion on the Nutch development mailing list.</description>
+      <description>&lt;p&gt;Nutch v1.22 will be the last version to run on Java 11.&lt;/p&gt;&#xA;&lt;p&gt;Starting with the development of version 1.23 we will migrate to Java 17.&#xA;To run or compile Nutch, a Java 17 runtime (JRE) and JDK will then be required.&lt;/p&gt;&#xA;&lt;p&gt;See also the &lt;a href=&#34;https://lists.apache.org/thread/ogbof5ttk6cf6tzwhh3oqwlnn24spzy9&#34;&gt;discussion on the Nutch development mailing list&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

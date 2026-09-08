@@ -13,7 +13,7 @@
       <link>/news/nutch-1.12-release/</link>
       <pubDate>Sat, 18 Jun 2016 00:00:00 +0000</pubDate>
       <guid>/news/nutch-1.12-release/</guid>
-      <description>The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.12, we advise all current users and developers of the 1.X series to upgrade to this release.&#xA;This release is the result of many months of work and over 40 issues addressed. For a complete overview of these issues please see the release report.&#xA;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within Maven Central as a Maven dependency.</description>
+      <description>&lt;p&gt;The Apache Nutch PMC are pleased to announce the immediate release of Apache Nutch v1.12, we advise all&#xA;current users and developers of the 1.X series to upgrade to this release.&lt;/p&gt;&#xA;&lt;p&gt;This release is the result of many months of work and over 40 issues addressed. For a complete overview of these issues please see the&#xA;&lt;a href=&#34;https://s.apache.org/nutch1.12&#34;&gt;release report&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As usual in the 1.X series, release artifacts are made available as both source and binary and also available within&#xA;&lt;a href=&#34;https://search.maven.org/search?q=g:org.apache.nutch%20AND%20a:nutch&amp;amp;core=gav&#34;&gt;Maven Central&lt;/a&gt; as a Maven dependency.&#xA;The release is available from our &lt;a href=&#34;/download/&#34;&gt;DOWNLOADS PAGE&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

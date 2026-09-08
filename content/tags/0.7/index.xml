@@ -13,7 +13,7 @@
       <link>/news/nutch-0.7-release/</link>
       <pubDate>Wed, 17 Aug 2005 00:00:00 +0000</pubDate>
       <guid>/news/nutch-0.7-release/</guid>
-      <description>This is the first Nutch release as an Apache Lucene sub-project. See CHANGES.txt for details. The release is available here.</description>
+      <description>&lt;p&gt;This is the first Nutch release as an Apache Lucene sub-project. See &lt;a href=&#34;http://svn.apache.org/viewcvs.cgi/nutch/trunk/CHANGES.txt?rev=233150&#34;&gt;CHANGES.txt&lt;/a&gt; for details. The release is available &lt;a href=&#34;http://www.apache.org/dyn/closer.cgi/nutch/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
