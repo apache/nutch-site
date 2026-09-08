@@ -61,6 +61,36 @@ The following security vulnerabilities are known:
 
 # Nutch CVE List
 
+## [CVE-2026-41871](https://www.cve.org/CVERecord?id=CVE-2026-41871)
+
+Unauthenticated reflection-based job execution in Nutch Server (Nutch REST API)
+
+Type: Missing Authorization (CWE-862), Unsafe Reflection (CWE-470)<br/>
+Affects Nutch version (up to): 1.22<br/>
+Fixed Nutch version: 1.23<br/>
+Publicly announced on [2026-09-08](https://lists.apache.org/thread/gb6z4h3wbhbhmyx7hjjdngbpc3fpw78q)<br/>
+Reporter / Thanks To: Th1nk
+
+## [CVE-2026-41870](https://www.cve.org/CVERecord?id=CVE-2026-41870)
+
+Unauthenticated remote code execution (RCE) via JEXL injection in Nutch Server (Nutch REST API)
+
+Type: Missing Authorization (CWE-862), Code Injection (CWE-94)<br/>
+Affects Nutch version (up to): 1.22<br/>
+Fixed Nutch version: 1.23<br/>
+Publicly announced on [2026-09-08](https://lists.apache.org/thread/6gqd09ntfj31frnpvc0j8tvls3vow08j)<br/>
+Reporter / Thanks To: Th1nk
+
+## [CVE-2026-41869](https://www.cve.org/CVERecord?id=CVE-2026-41869)
+
+Unauthenticated forced shutdown and job interruption in Nutch Server (Nutch REST API)
+
+Type: Missing Authorization (CWE-862), Improper Resource Shutdown or Release (CWE-404)<br/>
+Affects Nutch version (up to): 1.22<br/>
+Fixed Nutch version: 1.23<br/>
+Publicly announced on [2026-09-08](https://lists.apache.org/thread/swz0hgz8rnown4fnnkpch9qgop5t0nor)<br/>
+Reporter / Thanks To: Th1nk
+
 ## [CVE-2021-23901](https://nvd.nist.gov/vuln/detail/CVE-2021-23901)
 
 Type: XXE injection<br/>
@@ -70,6 +100,7 @@ Publicly announced on [2021-01-24](https://lists.apache.org/thread/y1onyktyk5cbz
 Reporter / Thanks To: Martin Heyden
 
 ## [CVE-2016-6809](https://nvd.nist.gov/vuln/detail/CVE-2016-6809)
+
 Type: deserialization of untrusted data<br/>
 Affects Nutch version (up to): 2.3.1<br/>
 Fixed Nutch version: 2.4<br/>
